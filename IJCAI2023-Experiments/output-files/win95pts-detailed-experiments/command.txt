@@ -1,0 +1,3 @@
+time timeout 20.000000m ../build/storm-project-starter1 output-files/win95pts-detailed-experiments/win95pts_p2.drn "P>=0.8 [F(\" Problem3_0
+\")]" "0.99<=p9<=0.99,0.1<=p8<=0.1,0.3<=p7<=0.3,0.98<=p6<=0.98,0.95<=p5<=0.95,0.4<=p3<=0.4,0.98<=p2<=0.98,0.3<=p1<=0.3,0.95<=p0<=0.95" 0.0625 --refThreshold 0.1 --numberOfRandom 1000 --expansionFactor 2 --maxAttempts 6 --paramNum 2
+

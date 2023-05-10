@@ -1,0 +1,9 @@
+node	states	minimum	maximum	 time
+
+CO	[HR = HIGH,STROKEVOLUME = NORMAL,CO = LOW]	0.20201667274975066	1.0	0.02243518829345703
+
+Sum of times: 0.02243518829345703s
+
+instantiation: 0.20201667274975066 
+
+tuning time:  0.02243518829345703

@@ -1,0 +1,39 @@
+{
+    "network": "hailfinder",
+    "classpath": "/Users/bahare/Packages/bayesserver-9.4/Java/bayesserver-9.4.jar",
+    "bif_location": "bif_files/hailfinder.bif",
+    "output_directory": "parameter_tuning_results/hailfinder22",
+    "create_parametric_bif": true,
+    "parameter_tuning": {
+        "hypothesis": "OutflowFrMtNone",
+        "evidence": "default",
+        "interval_left": 0.5,
+        "interval_right": 1,
+        "interval_left_type": "CLOSED",
+        "interval_right_type": "CLOSED",
+        "parameters": [
+            {
+                "node": "OutflowFrMt",
+                "parents": [
+                    "InsInMt",
+                    "WndHodograph"
+                ],
+                "parent_values": [
+                    "Strong",
+                    "Westerly"
+                ],
+                "node_value": "None"
+            },
+            {
+                "node": "Scenario",
+                "parents": [
+                    "Date"
+                ],
+                "parent_values": [
+                    "Aug20_Sep15"
+                ],
+                "node_value": "A"
+            }
+        ]
+    }
+}

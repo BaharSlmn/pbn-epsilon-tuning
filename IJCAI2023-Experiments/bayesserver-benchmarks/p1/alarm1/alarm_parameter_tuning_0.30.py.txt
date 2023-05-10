@@ -1,0 +1,8 @@
+node	states	minimum	maximum	 time
+
+Ignoring here as constraint is already satisfied. (time: 0.02226996421813965)
+
+Sum of times: 0.02226996421813965s
+
+instantiation: -1
+tuning time: 0.02226996421813965

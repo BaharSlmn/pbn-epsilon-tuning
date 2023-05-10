@@ -1,0 +1,37 @@
+Region: 0.1
+<=p0<=0.1
+
+Epsilon: 0.05
+Refinement threshold: 0.03
+Number of random instantiations: 10000
+Time for model input parsing: 0.015s.
+
+Iteration 1 starts:
+{1: p0}
+bound: 0.05
+Doing PLA on: 0.05<=p0<=0.15
+Time for PLA, iteration 1: 0.002s.
+
+{1: p0}
+bound: 0.1
+Doing PLA on: 0<=p0<=0.2
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p0<=1/5; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 1: 0.001s.
+
+{1: p0}
+bound: 0.2
+Doing PLA on: 0<=p0<=0.3
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p0<=3/10; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p0<=3/20; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 2: 0.003s.
+
+There are only this much AllSatregions:1
+this-distance0.1953125
+The EC-distance between the original and new instantiation: 0.1953125
+p0= 0.2953125
+Number of iterations: 2
+
+Performance statistics:
+  * peak memory usage: 99MB
+  * CPU time: 1.452s
+  * wallclock time: 0.023s

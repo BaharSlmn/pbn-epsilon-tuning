@@ -1,0 +1,23 @@
+{
+    "network" : "link",
+    "classpath" : "/Users/bahare/Packages/bayesserver-9.4/Java/bayesserver-9.4.jar",
+    "bif_location" : "bif_files/link.bif",
+    "output_directory" : "parameter_tuning_results/link",
+    "create_parametric_bif" : true,
+    "parameter_tuning" : {
+      "hypothesis" : "Z_9_d_ff",
+      "evidence" : "default",
+      "interval_left" : 0.0,
+      "interval_right" : 0.2,
+      "interval_left_type" : "CLOSED",
+      "interval_right_type" : "CLOSED",
+      "parameters" : [
+        {
+          "node" : "Z_9_d_f",
+          "parents" : ["Z_9_a_f"],
+          "parent_values" : ["f"],
+          "node_value" : "f"
+        }
+      ]
+    }
+}

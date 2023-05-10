@@ -1,0 +1,7 @@
+node	states	minimum	maximum	 time
+
+Ignoring here as solution not found for this parameter. (time: 0.019625186920166016)
+
+Ignoring here as solution not found for this parameter. (time: 0.0034317970275878906)
+
+Sum of times: 0.023056983947753906s

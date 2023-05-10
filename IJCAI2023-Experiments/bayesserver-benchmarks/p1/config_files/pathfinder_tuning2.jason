@@ -1,0 +1,29 @@
+{
+    "network" : "pathfinder",
+    "classpath" : "/Users/bahare/Packages/bayesserver-9.4/Java/bayesserver-9.4.jar",
+    "bif_location" : "bif_files/pathfinder.bif",
+    "output_directory" : "parameter_tuning_results/pathfinder2",
+    "create_parametric_bif" : true,
+    "parameter_tuning" : {
+      "hypothesis" : "F2NA",
+      "evidence" : "default",
+      "interval_left" : 0.9,
+      "interval_right" : 1.0,
+      "interval_left_type" : "CLOSED",
+      "interval_right_type" : "CLOSED",
+      "parameters" : [
+        {
+          "node" : "F97",
+          "parents" : ["Fault"],
+          "parent_values" : ["Cat_scratch_disease"],
+          "node_value" : "Absent"
+        },
+        {
+          "node" : "F97",
+          "parents" : ["Fault"],
+          "parent_values" : ["Dermatopathic_laden"],
+          "node_value" : "Absent"
+        }
+      ]
+    }
+}

@@ -1,0 +1,6 @@
+node	states	minimum	maximum	 time
+
+Cancer	[Pollution = low,Smoker = False,Cancer = True]	0.43605442176879267	1.0	0.016151905059814453
+
+instantiation: 0.43605442176879267
+tuning time: 0.016151905059814453

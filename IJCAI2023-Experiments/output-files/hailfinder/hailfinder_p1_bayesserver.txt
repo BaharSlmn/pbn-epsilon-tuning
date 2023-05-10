@@ -1,0 +1,6 @@
+node	states	minimum	maximum	 time
+
+OutflowFrMt	[InsInMt = Strong,WndHodograph = Westerly,OutflowFrMt = None]	0.8328381741961298	1.0	0.0845491886138916
+
+instantiation: 0.8328381741961298
+tuning time:  0.0845491886138916

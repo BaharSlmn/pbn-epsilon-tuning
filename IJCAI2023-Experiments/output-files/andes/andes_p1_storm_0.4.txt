@@ -1,0 +1,6 @@
+Region: 0.8
+<=p0<=0.8
+
+Epsilon: 0.05
+Refinement threshold: 0.4
+Number of random instantiations: 10000

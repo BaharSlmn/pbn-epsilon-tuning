@@ -1,0 +1,139 @@
+Region: 0.1<=p0<=0.1,0.5<=p1<=0.5,0.5<=p2<=0.5,0.5<=p3<=0.5
+Epsilon: 0.0625
+Refinement threshold: 0.2
+Number of random instantiations: 10000
+Expansion factor: 5.000000
+Maximum number of iterations: 4
+Number of parameters: 4
+Time for model input parsing: 2.992s.
+
+Iteration 1 starts:
+{4: p3, p2, p0, p1}
+epsilon: 0.016
+interval bound: 0.008
+Doing PLA on: 0.091<=p0<=0.109,0.491<=p1<=0.509,0.491<=p2<=0.509,0.491<=p3<=0.509
+Time for PLA, iteration 1: 0.009s.
+
+Iteration 2 starts:
+{4: p3, p2, p0, p1}
+epsilon: 0.08
+interval bound: 0.04
+Doing PLA on: 0.059<=p0<=0.141,0.459<=p1<=0.541,0.459<=p2<=0.541,0.459<=p3<=0.541
+Time for PLA, iteration 2: 0.009s.
+
+Iteration 3 starts:
+{4: p3, p2, p0, p1}
+epsilon: 0.4
+interval bound: 0.2
+Doing PLA on: 0<=p0<=0.301,0.299<=p1<=0.701,0.299<=p2<=0.701,0.299<=p3<=0.701
+Time for PLA, iteration 3: 0.006s.
+
+Iteration 4 starts:
+{4: p3, p2, p0, p1}
+epsilon: 2
+interval bound: 1
+Doing PLA on: 0<=p0<=1,0<=p1<=1,0<=p2<=1,0<=p3<=1
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1,0<=p2<=1,0<=p0<=1,0<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1,0<=p2<=1,0<=p0<=1,0<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1,0<=p2<=1,0<=p0<=1,0<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1,0<=p2<=1,0<=p0<=1,0<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,0<=p0<=1/2,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,0<=p0<=1/2,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=1/2,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=1/2,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=1/2,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=1/2,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,0<=p0<=1/2,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,0<=p0<=1/2,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,1/2<=p0<=1,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,1/2<=p0<=1,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,1/2<=p0<=1,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,1/2<=p0<=1,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,1/2<=p0<=1,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,1/2<=p0<=1,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,1/2<=p0<=1,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,1/2<=p0<=1,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,0<=p0<=1/2,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,0<=p0<=1/2,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=1/2,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=1/2,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=1/2,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=1/2,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,0<=p0<=1/2,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,0<=p0<=1/2,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,1/2<=p0<=1,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,1/2<=p0<=1,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,1/2<=p0<=1,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,1/2<=p0<=1,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,1/2<=p0<=1,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,1/2<=p0<=1,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,1/2<=p0<=1,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,1/2<=p0<=1,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,1/2<=p0<=3/4,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,1/2<=p0<=3/4,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,1/2<=p0<=3/4,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,1/2<=p0<=3/4,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/4<=p0<=1,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/4<=p0<=1,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/4<=p0<=1,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/4<=p0<=1,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,1/2<=p0<=3/4,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,1/2<=p0<=3/4,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,1/2<=p0<=3/4,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,1/2<=p0<=3/4,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/4<=p0<=1,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/4<=p0<=1,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/4<=p0<=1,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/4<=p0<=1,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,1/2<=p0<=3/4,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,1/2<=p0<=3/4,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,1/2<=p0<=3/4,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,1/2<=p0<=3/4,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/4<=p0<=1,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/4<=p0<=1,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,3/4<=p0<=1,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,3/4<=p0<=1,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,1/2<=p0<=3/4,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,1/2<=p0<=3/4,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,1/2<=p0<=3/4,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,1/2<=p0<=3/4,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/4<=p0<=1,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/4<=p0<=1,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,3/4<=p0<=1,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,3/4<=p0<=1,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,1/2<=p0<=3/4,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,1/2<=p0<=3/4,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,1/2<=p0<=3/4,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,1/2<=p0<=3/4,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/4<=p0<=1,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/4<=p0<=1,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/4<=p0<=1,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/4<=p0<=1,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,1/2<=p0<=3/4,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,1/2<=p0<=3/4,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,1/2<=p0<=3/4,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,1/2<=p0<=3/4,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/4<=p0<=1,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/4<=p0<=1,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/4<=p0<=1,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/4<=p0<=1,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,1/2<=p0<=3/4,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,1/2<=p0<=3/4,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,1/2<=p0<=3/4,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,1/2<=p0<=3/4,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/4<=p0<=1,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/4<=p0<=1,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 4: 0.230s.
+
+There are only this much AllSatregions:1
+The EC-distance between the original and new instantiation: 0.78102496759066553
+p3= 0.25
+p2= 0.75
+p0= 0.75
+p1= 0.75
+Number of iterations: 4
+
+Performance statistics:
+  * peak memory usage: 109MB
+  * CPU time: 4.681s
+  * wallclock time: 3.250s

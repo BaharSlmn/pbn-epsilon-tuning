@@ -1,0 +1,1 @@
+build/storm-project-starter examples/covid-parameteric.pm "P<=0.01 [F(\"covidYgivenantiNpcrN\" )]" "0.72<=p<=0.72, 0.95<=q<=0.95" 0.2 --refThreshold 0.05 --depthLimit 4 --numberOfRandom 100

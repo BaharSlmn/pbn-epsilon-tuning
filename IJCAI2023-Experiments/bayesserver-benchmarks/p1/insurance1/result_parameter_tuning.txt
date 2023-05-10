@@ -1,0 +1,7 @@
+node	states	minimum	maximum	 time
+
+Accident	[Antilock = False,Mileage = TwentyThou,DrivQuality = Poor,Accident = None]	0.9278006794543845	1.0	0.003317117691040039
+
+DrivingSkill	[Age = Adolescent,SeniorTrain = False,DrivingSkill = Expert]	0.9487884826938018	1.0	8.082389831542969e-05
+
+Sum of times: 0.0033979415893554688s

@@ -1,0 +1,6 @@
+node	states	minimum	maximum	 time
+
+EMFOK	[AppData = Correct,DskLocal = Greater_than_2_Mb,PrtThread = OK,EMFOK = Yes]	0.0	0.27462659133503137	0.0221099853515625
+
+instantiation:  0.27462659133503137 
+tuning time: 0.0221099853515625

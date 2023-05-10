@@ -1,0 +1,37 @@
+{
+    "network": "water",
+    "classpath": "/Users/bahare/Packages/bayesserver-9.4/Java/bayesserver-9.4.jar",
+    "bif_location": "bif_files/water.bif",
+    "output_directory": "parameter_tuning_results/water-2",
+    "create_parametric_bif": true,
+    "parameter_tuning": {
+        "hypothesis": "CBODD_12_4515_MG_L",
+        "evidence": "default",
+        "interval_left": 0.9,
+        "interval_right": 1.0,
+        "interval_left_type": "CLOSED",
+        "interval_right_type": "CLOSED",
+        "parameters": [
+            {
+                "node": "CKNI_12_15",
+                "parents": [
+                    "CKNI_12_00"
+                ],
+                "parent_values": [
+                    "20_MG_L"
+                ],
+                "node_value": "20_MG_L"
+            },
+            {
+                "node": "CKNI_12_15",
+                "parents": [
+                    "CKNI_12_00"
+                ],
+                "parent_values": [
+                    "20_MG_L"
+                ],
+                "node_value": "30_MG_L"
+            }
+        ]
+    }
+}

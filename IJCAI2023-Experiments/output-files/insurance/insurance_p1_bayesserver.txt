@@ -1,0 +1,6 @@
+node	states	minimum	maximum	 time
+
+Accident	[Antilock = False,Mileage = TwentyThou,DrivQuality = Poor,Accident = None]	0.9278006794543845	1.0	0.032144784927368164
+
+instantiation: 0.9278006794543845
+tuning time:  0.032144784927368164

@@ -1,0 +1,9 @@
+node	states	minimum	maximum	 time
+
+Ignoring here as solution not found for this parameter. (time: 0.029835939407348633)
+
+Sum of times: 0.029835939407348633s
+
+instantiation: -2
+
+tuning time: 0.029835939407348633

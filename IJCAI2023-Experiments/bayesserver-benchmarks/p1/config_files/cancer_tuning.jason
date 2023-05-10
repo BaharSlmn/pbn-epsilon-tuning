@@ -1,0 +1,23 @@
+{
+    "network" : "cancer",
+    "classpath" : "/Users/bahare/Packages/bayesserver-9.4/Java/bayesserver-10.8.jar",
+    "bif_location" : "bif_files/cancer.bif",
+    "output_directory" : "parameter_tuning_results/cancer1",
+    "create_parametric_bif" : true,
+    "parameter_tuning" : {
+      "hypothesis" : "DyspnoeaTrue",
+      "evidence" : "default",
+      "interval_left" : 0.4,
+      "interval_right" : 1.0,
+      "interval_left_type" : "CLOSED",
+      "interval_right_type" : "CLOSED",
+      "parameters" : [
+        {
+          "node" : "Cancer",
+          "parents" : ["Pollution","Smoker"],
+          "parent_values" : ["low","False"],
+          "node_value" : "True"
+        }
+      ]
+    }
+}

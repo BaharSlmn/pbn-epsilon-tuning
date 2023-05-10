@@ -1,0 +1,52 @@
+Region: 0.01<=p0<=0.01,0.01<=p1<=0.01,0.6<=p2<=0.6,0.01<=p3<=0.01,0.1<=p4<=0.1,0.4<=p5<=0.4,0.09<=p6<=0.09,0.2<=p7<=0.2
+Epsilon: 0.0625
+Refinement threshold: 0.7
+Number of random instantiations: 1000
+Time for model input parsing: 0.404s.
+
+Iteration 1 starts:
+{8: p0, p3, p6, p1, p4, p7, p2, p5}
+bound: 0.02209708691
+Doing PLA on: 0<=p0<=0.033,0<=p1<=0.033,0.577<=p2<=0.623,0<=p3<=0.033,0.077<=p4<=0.123,0.377<=p5<=0.423,0.067<=p6<=0.113,0.177<=p7<=0.223
+Time for PLA, iteration 1: 0.014s.
+
+{8: p0, p3, p6, p1, p4, p7, p2, p5}
+bound: 0.04419417382
+Doing PLA on: 0<=p0<=0.055,0<=p1<=0.055,0.555<=p2<=0.645,0<=p3<=0.055,0.055<=p4<=0.145,0.355<=p5<=0.445,0.045<=p6<=0.135,0.155<=p7<=0.245
+Time for PLA, iteration 1: 0.012s.
+
+{8: p0, p3, p6, p1, p4, p7, p2, p5}
+bound: 0.08838834765
+Doing PLA on: 0<=p0<=0.099,0<=p1<=0.099,0.511<=p2<=0.689,0<=p3<=0.099,0.011<=p4<=0.189,0.311<=p5<=0.489,0.001<=p6<=0.179,0.111<=p7<=0.289
+Time for PLA, iteration 2: 0.012s.
+
+{8: p0, p3, p6, p1, p4, p7, p2, p5}
+bound: 0.1767766953
+Doing PLA on: 0<=p0<=0.187,0<=p1<=0.187,0.423<=p2<=0.777,0<=p3<=0.187,0<=p4<=0.277,0.223<=p5<=0.577,0<=p6<=0.267,0.023<=p7<=0.377
+Time for PLA, iteration 3: 0.013s.
+
+{8: p0, p3, p6, p1, p4, p7, p2, p5}
+bound: 0.3535533906
+Doing PLA on: 0<=p0<=0.364,0<=p1<=0.364,0.246<=p2<=0.954,0<=p3<=0.364,0<=p4<=0.454,0.046<=p5<=0.754,0<=p6<=0.444,0<=p7<=0.554
+Time for PLA, iteration 4: 1.503s.
+
+{8: p0, p3, p6, p1, p4, p7, p2, p5}
+bound: 0.7071067812
+Doing PLA on: 0<=p0<=0.718,0<=p1<=0.718,0<=p2<=1,0<=p3<=0.718,0<=p4<=0.808,0<=p5<=1,0<=p6<=0.798,0<=p7<=0.908
+Time for PLA, iteration 5: 725.414s.
+
+The EC-distance between the original and new instantiation: 0.571984047
+p0= 0.1795
+p3= 0.1795
+p6= 0.5985
+p1= 0.01
+p4= 0.202
+p7= 0.227
+p2= 0.6
+p5= 0.4
+Number of iterations: 5
+
+Performance statistics:
+  * peak memory usage: 10210MB
+  * CPU time: 850.635s
+  * wallclock time: 934.579s

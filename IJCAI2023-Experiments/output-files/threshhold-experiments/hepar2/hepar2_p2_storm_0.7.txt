@@ -1,0 +1,34 @@
+Region: 0.997151<=p0<=0.997151,0.9947644<=p1<=0.9947644
+Epsilon: 0.0625
+Refinement threshold: 0.01
+Number of random instantiations: 10000
+Time for model input parsing: 4.005s.
+
+Iteration 1 starts:
+{2: p0, p1}
+bound: 0.04419417382
+Doing PLA on: 0.952151<=p0<=1,0.9497644<=p1<=1
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 952151/1000000<=p0<=1,2374411/2500000<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 952151/1000000<=p0<=1,2374411/2500000<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 952151/1000000<=p0<=1,2374411/2500000<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 952151/1000000<=p0<=1,2374411/2500000<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 952151/1000000<=p0<=1,2374411/2500000<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 952151/1000000<=p0<=1,2374411/2500000<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 952151/1000000<=p0<=1,2374411/2500000<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 952151/1000000<=p0<=1,2374411/2500000<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 952151/1000000<=p0<=1,2374411/2500000<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 952151/1000000<=p0<=1,2374411/2500000<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 952151/1000000<=p0<=1,2374411/2500000<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 952151/1000000<=p0<=1,2374411/2500000<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 1: 0.024s.
+
+There are only this much AllSatregions:1
+The EC-distance between the original and new instantiation: 0
+p0= 0.997151
+p1= 0.9947644
+Number of iterations: 0
+
+Performance statistics:
+  * peak memory usage: 114MB
+  * CPU time: 5.618s
+  * wallclock time: 4.030s

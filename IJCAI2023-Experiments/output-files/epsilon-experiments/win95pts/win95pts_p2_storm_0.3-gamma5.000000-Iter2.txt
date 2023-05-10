@@ -1,0 +1,30 @@
+Region: 0.1<=p0<=0.1,0.5<=p1<=0.5
+Epsilon: 0.0625
+Refinement threshold: 0.2
+Number of random instantiations: 10000
+Expansion factor: 5.000000
+Maximum number of iterations: 2
+Number of parameters: 2
+Time for model input parsing: 2.609s.
+
+Iteration 1 starts:
+{2: p0, p1}
+epsilon: 0.2828427125
+interval bound: 0.2
+Doing PLA on: 0<=p0<=0.3,0.3<=p1<=0.7
+Time for PLA, iteration 1: 0.006s.
+
+Iteration 2 starts:
+{2: p0, p1}
+epsilon: 1.414213562
+interval bound: 1
+Doing PLA on: 0<=p0<=1,0<=p1<=1
+Time for PLA, iteration 2: 0.005s.
+
+Number of iterations: 2
+No feasible solution found for the coverage factor 0.8 and after 2. Please give different arguments and try again.
+
+Performance statistics:
+  * peak memory usage: 108MB
+  * CPU time: 4.074s
+  * wallclock time: 2.621s

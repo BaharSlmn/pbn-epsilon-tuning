@@ -1,0 +1,1 @@
+storm-pars --prism covid-double-antigen-tailored-parametric.pm --prop "P=? [F(\"covidYgivenANAN\" )]"

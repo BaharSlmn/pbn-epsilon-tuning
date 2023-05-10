@@ -1,0 +1,348 @@
+Region: 0.01<=p0<=0.01,0.01<=p1<=0.01,0.6<=p2<=0.6,0.01<=p3<=0.01
+Epsilon: 0.0625
+Refinement threshold: 0.3
+Number of random instantiations: 10000
+Time for model input parsing: 0.373s.
+
+Iteration 1 starts:
+{4: p0, p3, p1, p2}
+bound: 0.03125
+Doing PLA on: 0<=p0<=0.042,0<=p1<=0.042,0.568<=p2<=0.632,0<=p3<=0.042
+Time for PLA, iteration 1: 0.013s.
+
+{4: p0, p3, p1, p2}
+bound: 0.0625
+Doing PLA on: 0<=p0<=0.073,0<=p1<=0.073,0.537<=p2<=0.663,0<=p3<=0.073
+Time for PLA, iteration 1: 0.011s.
+
+{4: p0, p3, p1, p2}
+bound: 0.125
+Doing PLA on: 0<=p0<=0.135,0<=p1<=0.135,0.475<=p2<=0.725,0<=p3<=0.135
+Time for PLA, iteration 2: 0.011s.
+
+{4: p0, p3, p1, p2}
+bound: 0.25
+Doing PLA on: 0<=p0<=0.26,0<=p1<=0.26,0.35<=p2<=0.85,0<=p3<=0.26
+Time for PLA, iteration 3: 0.012s.
+
+{4: p0, p3, p1, p2}
+bound: 0.5
+Doing PLA on: 0<=p0<=0.51,0<=p1<=0.51,0.1<=p2<=1,0<=p3<=0.51
+Time for PLA, iteration 4: 0.022s.
+
+{4: p0, p3, p1, p2}
+bound: 1
+Doing PLA on: 0<=p0<=1,0<=p1<=1,0<=p2<=1,0<=p3<=1
+Time for PLA, iteration 5: 3.211s.
+
+There are only this much AllSatregions:299
+this-distance1.297709521
+this-distance1.102406459
+this-distance1.1463202
+this-distance1.06960273
+this-distance1.000724737
+this-distance1.246866071
+this-distance1.246866071
+this-distance1.067848304
+this-distance1.199604101
+this-distance1.246615418
+this-distance1.018417891
+this-distance1.039975961
+this-distance1.340354431
+this-distance1.126798562
+this-distance1.263299252
+this-distance1.28049795
+this-distance1.387551801
+this-distance1.223550162
+this-distance1.246866071
+this-distance1.297709521
+this-distance0.9432258478
+this-distance1.37828698
+this-distance1.159870682
+this-distance1.340354431
+this-distance1.281717598
+this-distance1.018417891
+this-distance1.039975961
+this-distance1.06960273
+this-distance1.294816589
+this-distance1.122630839
+this-distance1.08411254
+this-distance1.018417891
+this-distance1.06960273
+this-distance1.230721333
+this-distance1.266757672
+this-distance1.40077657
+this-distance1.216418925
+this-distance1.00762096
+this-distance1.155551816
+this-distance1.223550162
+this-distance1.059327617
+this-distance1.08411254
+this-distance1.108625275
+this-distance1.094154925
+this-distance1.40077657
+this-distance1.122630839
+this-distance1.023010264
+this-distance0.9982735096
+this-distance1.002958125
+this-distance1.246615418
+this-distance1.37828698
+this-distance1.259583264
+this-distance1.132331665
+this-distance1.1463202
+this-distance1.059327617
+this-distance1.065211247
+this-distance1.363469838
+this-distance1.313268822
+this-distance1.126798562
+this-distance1.340354431
+this-distance1.287798509
+this-distance1.144410329
+this-distance1.1463202
+this-distance1.285612694
+this-distance1.259583264
+this-distance1.007310776
+this-distance1.246866071
+this-distance1.024841451
+this-distance1.336852647
+this-distance1.413214421
+this-distance1.297709521
+this-distance1.12235244
+this-distance1.216418925
+this-distance1.108343358
+this-distance1.223550162
+this-distance1.340354431
+this-distance1.223550162
+this-distance1.28049795
+this-distance1.223294731
+this-distance1.029405168
+this-distance1.321571035
+this-distance1.323697473
+this-distance1.12235244
+this-distance1.165246755
+this-distance1.167657912
+this-distance1.340354431
+this-distance1.163636541
+this-distance0.9982735096
+this-distance1.065211247
+this-distance1.12235244
+this-distance1.12235244
+this-distance1.122630839
+this-distance0.9982735096
+this-distance1.159870682
+this-distance1.007310776
+this-distance1.340354431
+this-distance1.102406459
+this-distance1.163905065
+this-distance1.199604101
+this-distance1.173264676
+this-distance1.243352323
+this-distance0.9596483731
+this-distance1.223550162
+this-distance1.230721333
+this-distance1.167657912
+this-distance1.297709521
+this-distance1.296263862
+this-distance1.088427765
+this-distance1.094154925
+this-distance1.199604101
+this-distance1.132331665
+this-distance1.28049795
+this-distance1.06960273
+this-distance1.313268822
+this-distance1.246615418
+this-distance1.216418925
+this-distance1.276587247
+this-distance1.263299252
+this-distance1.044174315
+this-distance1.2345242
+this-distance1.033646458
+this-distance1.275607698
+this-distance1.122630839
+this-distance1.449241181
+this-distance1.297709521
+this-distance1.323697473
+this-distance1.216418925
+this-distance1.078042207
+this-distance1.007310776
+this-distance1.12235244
+this-distance1.297709521
+this-distance1.296263862
+this-distance1.073976257
+this-distance1.02910155
+this-distance1.065211247
+this-distance1.122630839
+this-distance1.413214421
+this-distance1.281717598
+this-distance1.14413723
+this-distance1.098430699
+this-distance1.037870416
+this-distance1.165246755
+this-distance1.216418925
+this-distance1.296263862
+this-distance1.02910155
+this-distance1.112845452
+this-distance1.363469838
+this-distance0.9805865592
+this-distance1.266757672
+this-distance1.321571035
+this-distance1.195690177
+this-distance1.28049795
+this-distance1.247116675
+this-distance1.340354431
+this-distance1.00762096
+this-distance1.173264676
+this-distance1.165246755
+this-distance1.044174315
+this-distance1.163636541
+this-distance0.9982735096
+this-distance1.059032577
+this-distance1.12235244
+this-distance1.002958125
+this-distance1.281717598
+this-distance1.290465032
+this-distance1.340354431
+this-distance1.227375248
+this-distance1.243352323
+this-distance1.029405168
+this-distance1.024841451
+this-distance1.413214421
+this-distance1.138617583
+this-distance1.323697473
+this-distance1.250619846
+this-distance1.00762096
+this-distance1.167657912
+this-distance1.159870682
+this-distance1.223550162
+this-distance1.167657912
+this-distance1.199604101
+this-distance1.228942635
+this-distance1.216418925
+this-distance1.024841451
+this-distance1.250619846
+this-distance1.122630839
+this-distance1.094154925
+this-distance1.276832017
+this-distance1.1463202
+this-distance1.065211247
+this-distance1.37828698
+this-distance0.9919929435
+this-distance1.294816589
+this-distance1.263299252
+this-distance1.246866071
+this-distance1.276587247
+this-distance1.230721333
+this-distance1.059032577
+this-distance1.033646458
+this-distance1.37828698
+this-distance1.297709521
+this-distance1.098430699
+this-distance1.313268822
+this-distance1.088427765
+this-distance1.132331665
+this-distance1.078042207
+this-distance1.132331665
+this-distance1.37828698
+this-distance1.176722142
+this-distance1.12235244
+this-distance1.108625275
+this-distance1.230721333
+this-distance1.290465032
+this-distance1.057213318
+this-distance1.313268822
+this-distance1.449241181
+this-distance1.195428793
+this-distance1.246615418
+this-distance1.029405168
+this-distance1.057213318
+this-distance1.02910155
+this-distance1.223294731
+this-distance1.002958125
+this-distance1.065211247
+this-distance1.199604101
+this-distance1.088140616
+this-distance1.132331665
+this-distance1.285612694
+this-distance1.163367956
+this-distance1.163636541
+this-distance0.9690459225
+this-distance1.340354431
+this-distance1.024841451
+this-distance1.363469838
+this-distance0.9094916162
+this-distance1.057213318
+this-distance1.275607698
+this-distance1.094154925
+this-distance1.37828698
+this-distance1.199604101
+this-distance1.065211247
+this-distance1.246615418
+this-distance1.02910155
+this-distance1.230721333
+this-distance1.122630839
+this-distance1.340354431
+this-distance1.216418925
+this-distance1.37828698
+this-distance0.9919929435
+this-distance1.059032577
+this-distance1.340354431
+this-distance1.02910155
+this-distance1.029405168
+this-distance1.155551816
+this-distance1.163636541
+this-distance1.122630839
+this-distance1.029405168
+this-distance1.163367956
+this-distance1.37828698
+this-distance1.259086971
+this-distance1.276832017
+this-distance1.230721333
+this-distance1.276832017
+this-distance1.14413723
+this-distance1.250619846
+this-distance1.2345242
+this-distance1.328645927
+this-distance1.246866071
+this-distance1.088427765
+this-distance1.039975961
+this-distance1.037870416
+this-distance1.165246755
+this-distance1.387551801
+this-distance1.12235244
+this-distance1.09639181
+this-distance1.163367956
+this-distance1.078042207
+this-distance1.363469838
+this-distance1.039975961
+this-distance1.065211247
+this-distance1.223550162
+this-distance1.163636541
+this-distance1.259583264
+this-distance1.40077657
+this-distance1.102406459
+this-distance1.297709521
+this-distance1.243352323
+this-distance0.9850380703
+this-distance1.059032577
+this-distance1.108625275
+this-distance0.9982735096
+this-distance1.246866071
+this-distance0.9805865592
+this-distance0.9094916162
+this-distance0.9982735096
+this-distance1.195428793
+this-distance1.285612694
+this-distance1.173264676
+this-distance1.2345242
+this-distance1.12235244
+The EC-distance between the original and new instantiation: 0.9094916162
+p0= 0.5
+p3= 0.375
+p1= 0.625
+p2= 0.875
+Number of iterations: 5
+
+Performance statistics:
+  * peak memory usage: 139MB
+  * CPU time: 5.701s
+  * wallclock time: 4.332s

@@ -1,0 +1,28 @@
+Region: 0.1<=p0<=0.1,0.5<=p1<=0.5,0.5<=p2<=0.5,0.5<=p3<=0.5
+Epsilon: 0.0625
+Refinement threshold: 0.2
+Number of random instantiations: 10000
+Expansion factor: 2.000000
+Maximum number of iterations: 4
+Number of parameters: 4
+Time for model input parsing: 3.408s.
+
+Iteration 1 starts:
+{4: p3, p2, p0, p1}
+epsilon: 0.25
+interval bound: 0.125
+Doing PLA on: 0<=p0<=0.225,0.375<=p1<=0.625,0.375<=p2<=0.625,0.375<=p3<=0.625
+Time for PLA, iteration 1: 10.636s.
+
+There are only this much AllSatregions:981
+The EC-distance between the original and new instantiation: 0
+p3= 0.5
+p2= 0.5
+p0= 0.10000000000000001
+p1= 0.5
+Number of iterations: 1
+
+Performance statistics:
+  * peak memory usage: 194MB
+  * CPU time: 23.474s
+  * wallclock time: 26.272s

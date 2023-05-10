@@ -1,0 +1,5 @@
+node	states	minimum	maximum	 time
+
+lung	[smoke = yes,lung = yes]	0.2949521474952413	1.0	0.003016948699951172
+
+Sum of times: 0.003016948699951172s

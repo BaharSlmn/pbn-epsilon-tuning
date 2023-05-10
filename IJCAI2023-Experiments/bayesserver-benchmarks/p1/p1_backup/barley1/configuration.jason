@@ -1,0 +1,33 @@
+{
+    "network": "barley",
+    "classpath": "/Users/bahare/Packages/bayesserver-9.4/Java/bayesserver-9.4.jar",
+    "bif_location": "bif_files/barley.bif",
+    "output_directory": "parameter_tuning_results/barley2",
+    "create_parametric_bif": true,
+    "parameter_tuning": {
+        "hypothesis": "antplntx375_425",
+        "evidence": "default",
+        "interval_left": 0.0,
+        "interval_right": 0.1,
+        "interval_left_type": "CLOSED",
+        "interval_right_type": "CLOSED",
+        "parameters": [
+            {
+                "node": "jordinf",
+                "parents": [
+                    "frspdag"
+                ],
+                "parent_values": [
+                    "x_15"
+                ],
+                "node_value": "x__80"
+            },
+            {
+                "node": "tkvs",
+                "parents": [],
+                "parent_values": [],
+                "node_value": "x30_35"
+            }
+        ]
+    }
+}

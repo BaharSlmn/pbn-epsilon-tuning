@@ -1,0 +1,5 @@
+node	states	minimum	maximum	 time
+
+Cancer	[Pollution = low,Smoker = False,Cancer = True]	0.43605442176879267	1.0	0.01664900779724121
+
+Sum of times: 0.01664900779724121s

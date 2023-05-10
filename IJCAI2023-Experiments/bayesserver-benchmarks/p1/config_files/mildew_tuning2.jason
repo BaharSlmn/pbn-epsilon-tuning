@@ -1,0 +1,35 @@
+{
+    "network" : "mildew",
+    "classpath" : "/Users/bahare/Packages/bayesserver-9.4/Java/bayesserver-9.4.jar",
+    "bif_location" : "bif_files/mildew.bif",
+    "output_directory" : "parameter_tuning_results/mildew2",
+    "create_parametric_bif" : true,
+    "parameter_tuning" : {
+      "hypothesis" : "udbytte0___1_hkg_ha",
+      "evidence" : "default",
+      "interval_left" : 0.9,
+      "interval_right" : 1.0,
+      "interval_left_type" : "CLOSED",
+      "interval_right_type" : "CLOSED",
+      "parameters" : [
+        {
+          "node" : "lai_0",
+          "parents" : [],
+          "parent_values" : [],
+          "node_value" : "0_0___0_5"
+        },
+        {
+          "node" : "mikro_2",
+          "parents" : ["lai_2","temp_2","nedboer_2"],
+          "parent_values" : ["0_5___1_5","___13_0_C","0___1"],
+          "node_value" : "T_rt_og_koldt"
+     	},
+	{
+          "node" : "mikro_2",
+          "parents" : ["lai_2","temp_2","nedboer_2"],
+          "parent_values" : ["1_5___2_5","___13_0_C","0___1"],
+          "node_value" : "T_rt_og_koldt"
+        }
+      ]
+    }
+}

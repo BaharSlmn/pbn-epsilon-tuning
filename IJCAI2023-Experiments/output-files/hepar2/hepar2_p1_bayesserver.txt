@@ -1,0 +1,6 @@
+node	states	minimum	maximum	 time
+
+density	[encephalopathy = absent,density = present]	0.0	0.07960198270809421	0.026882171630859375
+
+instantiation: 0.07960198270809421
+tuning time: 0.026882171630859375

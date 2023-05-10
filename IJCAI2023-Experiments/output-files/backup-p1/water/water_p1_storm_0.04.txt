@@ -1,0 +1,7 @@
+Region: 0.48
+<=p0<=0.48
+
+Epsilon: 0.05
+Refinement threshold: 0.04
+Number of random instantiations: 10000
+ERROR (Model.cpp:57): The matrix is not probabilistic.

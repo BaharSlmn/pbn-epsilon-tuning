@@ -1,0 +1,51 @@
+Region: 0.3772189
+<=p0<=0.3772189
+
+Epsilon: 0.05
+Refinement threshold: 0.3
+Number of random instantiations: 10000
+Time for model input parsing: 5.361s.
+
+Iteration 1 starts:
+{1: p0}
+bound: 0.05
+Doing PLA on: 0.3272189<=p0<=0.4272189
+Time for PLA, iteration 1: 0.061s.
+
+{1: p0}
+bound: 0.1
+Doing PLA on: 0.2772189<=p0<=0.4772189
+Time for PLA, iteration 1: 0.058s.
+
+{1: p0}
+bound: 0.2
+Doing PLA on: 0.1772189<=p0<=0.5772189
+Time for PLA, iteration 2: 0.058s.
+
+{1: p0}
+bound: 0.4
+Doing PLA on: 0<=p0<=0.7772189
+Time for PLA, iteration 3: 0.088s.
+
+{1: p0}
+bound: 0.8
+Doing PLA on: 0<=p0<=1
+Time for PLA, iteration 4: 0.090s.
+
+{1: p0}
+bound: 1.6
+Doing PLA on: 0<=p0<=1
+Time for PLA, iteration 5: 0.088s.
+
+{1: p0}
+bound: 3.2
+Doing PLA on: 0<=p0<=1
+Time for PLA, iteration 6: 0.087s.
+
+Number of iterations: 6
+No feasible solution found for epsilon = 0.05 and after 6. Please give different arguments and try again.
+
+Performance statistics:
+  * peak memory usage: 116MB
+  * CPU time: 7.277s
+  * wallclock time: 5.896s

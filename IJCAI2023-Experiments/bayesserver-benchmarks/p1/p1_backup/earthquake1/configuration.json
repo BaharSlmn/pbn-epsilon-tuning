@@ -1,0 +1,29 @@
+{
+    "network": "earthquake",
+    "classpath": "/Users/bahare/Packages/bayesserver-9.4/Java/bayesserver-9.4.jar",
+    "bif_location": "bif_files/earthquake.bif",
+    "output_directory": "parameter_tuning_results/earthquake1",
+    "create_parametric_bif": true,
+    "parameter_tuning": {
+        "hypothesis": "MaryCallsTrue",
+        "evidence": "default",
+        "interval_left": 0.2,
+        "interval_right": 1.0,
+        "interval_left_type": "CLOSED",
+        "interval_right_type": "CLOSED",
+        "parameters": [
+            {
+                "node": "Alarm",
+                "parents": [
+                    "Burglary",
+                    "Earthquake"
+                ],
+                "parent_values": [
+                    "False",
+                    "False"
+                ],
+                "node_value": "True"
+            }
+        ]
+    }
+}

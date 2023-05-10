@@ -1,0 +1,76 @@
+Region: 0.005<=ss<=0.005,0.01<=t<=0.01
+Epsilon: 0.2
+Refinement threshold: 0.0001
+Number of random instantiations: 1000
+Number of parameters: 2
+ WARN (FormulaParserGrammar.cpp:330): Identifier `C' coincides with a reserved keyword or operator. Property expressions using the variable or constant 'C' will not be parsed correctly.
+ WARN (FormulaParserGrammar.cpp:330): Identifier `S' coincides with a reserved keyword or operator. Property expressions using the variable or constant 'S' will not be parsed correctly.
+Time for model input parsing: 0.060s.
+
+Iteration 1 starts:
+{2: ss, t}
+epsilon: 0.1767766953
+interval bound: 0.125
+Doing PLA on: 0<=ss<=0.13,0<=t<=0.135
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/100,0<=t<=27/200; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/100,0<=t<=27/200; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/200,0<=t<=27/400; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/200,0<=t<=27/400; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 13/200<=ss<=13/100,0<=t<=27/400; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/200,27/400<=t<=27/200; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/400,0<=t<=27/800; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/400,0<=t<=27/800; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 13/400<=ss<=13/200,0<=t<=27/800; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/400,27/800<=t<=27/400; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/800,0<=t<=27/1600; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/800,0<=t<=27/1600; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 13/800<=ss<=13/400,0<=t<=27/1600; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/800,27/1600<=t<=27/800; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/1600,0<=t<=27/3200; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/1600,0<=t<=27/3200; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 13/1600<=ss<=13/800,0<=t<=27/3200; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/1600,27/3200<=t<=27/1600; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/3200,0<=t<=27/6400; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/3200,0<=t<=27/6400; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 13/3200<=ss<=13/1600,0<=t<=27/6400; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/3200,27/6400<=t<=27/3200; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 13/1600<=ss<=39/3200,0<=t<=27/6400; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 39/3200<=ss<=13/800,0<=t<=27/6400; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/6400,27/6400<=t<=81/12800; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/6400,81/12800<=t<=27/3200; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 13/1600<=ss<=13/1280,0<=t<=27/12800; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 13/1280<=ss<=39/3200,0<=t<=27/12800; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 39/3200<=ss<=91/6400,0<=t<=27/12800; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 91/6400<=ss<=13/800,0<=t<=27/12800; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/12800,27/6400<=t<=27/5120; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/12800,27/5120<=t<=81/12800; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 91/6400<=ss<=39/2560,0<=t<=27/25600; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 39/2560<=ss<=13/800,0<=t<=27/25600; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/25600,27/6400<=t<=243/51200; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/25600,243/51200<=t<=27/5120; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 39/2560<=ss<=403/25600,0<=t<=27/51200; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 403/25600<=ss<=13/800,0<=t<=27/51200; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/51200,243/51200<=t<=513/102400; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/51200,513/102400<=t<=27/5120; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 39/2560<=ss<=793/51200,0<=t<=27/102400; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 793/51200<=ss<=403/25600,0<=t<=27/102400; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/102400,513/102400<=t<=1053/204800; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/102400,1053/204800<=t<=27/5120; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 793/51200<=ss<=1599/102400,0<=t<=27/204800; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1599/102400<=ss<=403/25600,0<=t<=27/204800; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/204800,1053/204800<=t<=2133/409600; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=ss<=13/204800,2133/409600<=t<=27/5120; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1599/102400<=ss<=3211/204800,0<=t<=27/409600; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3211/204800<=ss<=403/25600,0<=t<=27/409600; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 1: 0.598s.
+
+There are only this much AllSatregions:262
+The EC-distance between the original and new instantiation: 0.0050458451392458026
+ss= 0.0042529296875000004
+t= 0.0050097656249999999
+Number of iterations: 1
+
+Performance statistics:
+  * peak memory usage: 130MB
+  * CPU time: 2.278s
+  * wallclock time: 0.918s

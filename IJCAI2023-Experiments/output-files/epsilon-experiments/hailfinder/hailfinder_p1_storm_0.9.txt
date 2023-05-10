@@ -1,0 +1,71 @@
+Region: 0.10<=p0<=0.10
+Epsilon: 0.0625
+Refinement threshold: 0.0000001
+Number of random instantiations: 10000
+Expansion factor: 5.000000
+Maximum number of iterations: 8
+Time for model input parsing: 8.403s.
+
+Iteration 1 starts:
+{1: p0}
+epsilon: 1.28e-05
+interval bound: 1.28e-05
+Doing PLA on: 0.099<=p0<=0.101
+Time for PLA, iteration 1: 0.014s.
+
+Iteration 2 starts:
+{1: p0}
+epsilon: 6.4e-05
+interval bound: 6.4e-05
+Doing PLA on: 0.099<=p0<=0.101
+Time for PLA, iteration 2: 0.013s.
+
+Iteration 3 starts:
+{1: p0}
+epsilon: 0.00032
+interval bound: 0.00032
+Doing PLA on: 0.099<=p0<=0.101
+Time for PLA, iteration 3: 0.013s.
+
+Iteration 4 starts:
+{1: p0}
+epsilon: 0.0016
+interval bound: 0.0016
+Doing PLA on: 0.098<=p0<=0.102
+Time for PLA, iteration 4: 0.013s.
+
+Iteration 5 starts:
+{1: p0}
+epsilon: 0.008
+interval bound: 0.008
+Doing PLA on: 0.091<=p0<=0.109
+Time for PLA, iteration 5: 0.013s.
+
+Iteration 6 starts:
+{1: p0}
+epsilon: 0.04
+interval bound: 0.04
+Doing PLA on: 0.059<=p0<=0.141
+Time for PLA, iteration 6: 0.013s.
+
+Iteration 7 starts:
+{1: p0}
+epsilon: 0.2
+interval bound: 0.2
+Doing PLA on: 0<=p0<=0.301
+Time for PLA, iteration 7: 0.013s.
+
+Iteration 8 starts:
+{1: p0}
+epsilon: 1
+interval bound: 1
+Doing PLA on: 0<=p0<=1
+Time for PLA, iteration 8: 0.013s.
+
+Number of iterations: 8
+No feasible solution found for the coverage factor 0.9999999 and after 8. Please give different arguments and try again.
+
+Performance statistics:
+  * peak memory usage: 124MB
+  * CPU time: 9.805s
+  * wallclock time: 8.513s

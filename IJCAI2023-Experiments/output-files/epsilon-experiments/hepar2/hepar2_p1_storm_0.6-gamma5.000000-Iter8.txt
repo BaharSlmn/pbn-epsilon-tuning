@@ -1,0 +1,73 @@
+Region: 0.3772189<=p0<=0.3772189
+Epsilon: 0.0625
+Refinement threshold: 0.0000001
+Number of random instantiations: 10000
+Expansion factor: 5.000000
+Maximum number of iterations: 8
+Time for model input parsing: 5.447s.
+
+Iteration 1 starts:
+{1: p0}
+epsilon: 1.28e-05
+interval bound: 1.28e-05
+Doing PLA on: 0.3762189<=p0<=0.3782189
+Time for PLA, iteration 1: 0.061s.
+
+Iteration 2 starts:
+{1: p0}
+epsilon: 6.4e-05
+interval bound: 6.4e-05
+Doing PLA on: 0.3762189<=p0<=0.3782189
+Time for PLA, iteration 2: 0.058s.
+
+Iteration 3 starts:
+{1: p0}
+epsilon: 0.00032
+interval bound: 0.00032
+Doing PLA on: 0.3762189<=p0<=0.3782189
+Time for PLA, iteration 3: 0.059s.
+
+Iteration 4 starts:
+{1: p0}
+epsilon: 0.0016
+interval bound: 0.0016
+Doing PLA on: 0.3752189<=p0<=0.3792189
+Time for PLA, iteration 4: 0.061s.
+
+Iteration 5 starts:
+{1: p0}
+epsilon: 0.008
+interval bound: 0.008
+Doing PLA on: 0.3682189<=p0<=0.3862189
+Time for PLA, iteration 5: 0.060s.
+
+Iteration 6 starts:
+{1: p0}
+epsilon: 0.04
+interval bound: 0.04
+Doing PLA on: 0.3362189<=p0<=0.4182189
+Time for PLA, iteration 6: 0.057s.
+
+Iteration 7 starts:
+{1: p0}
+epsilon: 0.2
+interval bound: 0.2
+Doing PLA on: 0.1762189<=p0<=0.5782189
+Time for PLA, iteration 7: 0.057s.
+
+Iteration 8 starts:
+{1: p0}
+epsilon: 1
+interval bound: 1
+Doing PLA on: 0<=p0<=1
+Time for PLA, iteration 8: 0.408s.
+
+There are only this much AllSatregions:13
+The EC-distance between the original and new instantiation: 0.21834081622467039
+p0= 0.59555971622467041
+Number of iterations: 8
+
+Performance statistics:
+  * peak memory usage: 116MB
+  * CPU time: 7.472s
+  * wallclock time: 6.275s

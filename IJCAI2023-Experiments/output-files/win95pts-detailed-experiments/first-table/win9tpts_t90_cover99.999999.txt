@@ -1,0 +1,91 @@
+Region: 0.1<=p0<=0.1,0.5<=p1<=0.5,0.02<=p2<=0.02,0.6<=p3<=0.6,0.6<=p4<=0.6,0.8<=p5<=0.8,0.5<=p6<=0.5,0.6<=p7<=0.6
+Epsilon: 0.0625
+Refinement threshold: 0.000000001
+Number of random instantiations: 1000
+Time for model input parsing: 2.336s.
+
+Iteration 1 starts:
+{2: p0, p1}
+bound: 0.04419417382
+Doing PLA on: 0.055<=p0<=0.145,0.455<=p1<=0.545,0<=p2<=0.065,0.555<=p3<=0.645,0.555<=p4<=0.645,0.755<=p5<=0.845,0.455<=p6<=0.545,0.555<=p7<=0.645
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p2 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p3 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p4 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p5 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p6 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p7 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 1: 0.006s.
+
+{2: p0, p1}
+bound: 0.08838834765
+Doing PLA on: 0.011<=p0<=0.189,0.411<=p1<=0.589,0<=p2<=0.109,0.511<=p3<=0.689,0.511<=p4<=0.689,0.711<=p5<=0.889,0.411<=p6<=0.589,0.511<=p7<=0.689
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p2 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p3 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p4 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p5 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p6 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p7 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 1: 0.005s.
+
+{2: p0, p1}
+bound: 0.1767766953
+Doing PLA on: 0<=p0<=0.277,0.323<=p1<=0.677,0<=p2<=0.197,0.423<=p3<=0.777,0.423<=p4<=0.777,0.623<=p5<=0.977,0.323<=p6<=0.677,0.423<=p7<=0.777
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p2 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p3 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p4 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p5 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p6 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p7 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 2: 0.005s.
+
+{2: p0, p1}
+bound: 0.3535533906
+Doing PLA on: 0<=p0<=0.454,0.146<=p1<=0.854,0<=p2<=0.374,0.246<=p3<=0.954,0.246<=p4<=0.954,0.446<=p5<=1,0.146<=p6<=0.854,0.246<=p7<=0.954
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p2 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p3 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p4 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p5 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p6 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p7 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 3: 0.005s.
+
+{2: p0, p1}
+bound: 0.7071067812
+Doing PLA on: 0<=p0<=0.808,0<=p1<=1,0<=p2<=0.728,0<=p3<=1,0<=p4<=1,0.092<=p5<=1,0<=p6<=1,0<=p7<=1
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p2 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p3 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p4 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p5 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p6 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p7 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 4: 0.005s.
+
+{2: p0, p1}
+bound: 1.414213562
+Doing PLA on: 0<=p0<=1,0<=p1<=1,0<=p2<=1,0<=p3<=1,0<=p4<=1,0<=p5<=1,0<=p6<=1,0<=p7<=1
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p2 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p3 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p4 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p5 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p6 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p7 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 5: 0.005s.
+
+{2: p0, p1}
+bound: 2.828427125
+Doing PLA on: 0<=p0<=1,0<=p1<=1,0<=p2<=1,0<=p3<=1,0<=p4<=1,0<=p5<=1,0<=p6<=1,0<=p7<=1
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p2 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p3 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p4 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p5 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p6 in the set of considered variables. Ignoring this parameter.
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p7 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 6: 0.005s.
+
+Number of iterations: 6
+No feasible solution found for epsilon = 0.0625 and after 6. Please give different arguments and try again.
+
+Performance statistics:
+  * peak memory usage: 108MB
+  * CPU time: 3.752s
+  * wallclock time: 2.377s

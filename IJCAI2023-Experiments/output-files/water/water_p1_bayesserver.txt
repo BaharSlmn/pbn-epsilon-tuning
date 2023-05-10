@@ -1,0 +1,6 @@
+node	states	minimum	maximum	 time
+
+C_NI_12_15	[C_NI_12_00 = 3,C_NI_12_15 = 3]	0.0	0.09999999999999998	0.014529228210449219
+
+instantiation: 0.09999999999999998
+tuning time: 0.014529228210449219

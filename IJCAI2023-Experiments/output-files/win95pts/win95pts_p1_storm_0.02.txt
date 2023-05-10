@@ -1,0 +1,47 @@
+Region: 0.99<=p0<=0.99
+Epsilon: 0.0625
+Refinement threshold: 0.02
+Number of random instantiations: 10000
+Time for model input parsing: 2.940s.
+
+Iteration 1 starts:
+{1: p0}
+bound: 0.0625
+Doing PLA on: 0.927<=p0<=1
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 927/1000<=p0<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 1: 0.002s.
+
+{1: p0}
+bound: 0.125
+Doing PLA on: 0.865<=p0<=1
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 173/200<=p0<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 1: 0.001s.
+
+{1: p0}
+bound: 0.25
+Doing PLA on: 0.74<=p0<=1
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 37/50<=p0<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 2: 0.001s.
+
+{1: p0}
+bound: 0.5
+Doing PLA on: 0.49<=p0<=1
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 49/100<=p0<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 3: 0.001s.
+
+{1: p0}
+bound: 1
+Doing PLA on: 0<=p0<=1
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p0<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p0<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 4: 0.004s.
+
+There are only this much AllSatregions:2
+The EC-distance between the original and new instantiation: 0.72437499999999999
+p0= 0.265625
+Number of iterations: 4
+
+Performance statistics:
+  * peak memory usage: 108MB
+  * CPU time: 4.329s
+  * wallclock time: 2.951s

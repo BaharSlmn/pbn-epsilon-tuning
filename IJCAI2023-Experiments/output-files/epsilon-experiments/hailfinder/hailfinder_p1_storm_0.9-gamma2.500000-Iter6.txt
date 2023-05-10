@@ -1,0 +1,57 @@
+Region: 0.10<=p0<=0.10
+Epsilon: 0.0625
+Refinement threshold: 0.0000001
+Number of random instantiations: 10000
+Expansion factor: 2.500000
+Maximum number of iterations: 6
+Time for model input parsing: 9.025s.
+
+Iteration 1 starts:
+{1: p0}
+epsilon: 0.03125
+interval bound: 0.03125
+Doing PLA on: 0.068<=p0<=0.132
+Time for PLA, iteration 1: 0.014s.
+
+Iteration 2 starts:
+{1: p0}
+epsilon: 0.0625
+interval bound: 0.0625
+Doing PLA on: 0.037<=p0<=0.163
+Time for PLA, iteration 2: 0.013s.
+
+Iteration 3 starts:
+{1: p0}
+epsilon: 0.125
+interval bound: 0.125
+Doing PLA on: 0<=p0<=0.225
+Time for PLA, iteration 3: 0.014s.
+
+Iteration 4 starts:
+{1: p0}
+epsilon: 0.25
+interval bound: 0.25
+Doing PLA on: 0<=p0<=0.35
+Time for PLA, iteration 4: 0.013s.
+
+Iteration 5 starts:
+{1: p0}
+epsilon: 0.5
+interval bound: 0.5
+Doing PLA on: 0<=p0<=0.6
+Time for PLA, iteration 5: 0.014s.
+
+Iteration 6 starts:
+{1: p0}
+epsilon: 1
+interval bound: 1
+Doing PLA on: 0<=p0<=1
+Time for PLA, iteration 6: 0.013s.
+
+Number of iterations: 6
+No feasible solution found for the coverage factor 0.9999999 and after 6. Please give different arguments and try again.
+
+Performance statistics:
+  * peak memory usage: 124MB
+  * CPU time: 10.223s
+  * wallclock time: 9.111s

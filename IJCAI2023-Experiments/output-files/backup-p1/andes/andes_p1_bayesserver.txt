@@ -1,0 +1,6 @@
+node	states	minimum	maximum	 time
+
+GOAL_110	[GOAL_109 = true,GOAL65 = true,GOAL_110 = false]	0.7999999999660568	1.0	0.05327892303466797
+
+instantiation: 0.7999999999660568
+tuning time: 0.05327892303466797

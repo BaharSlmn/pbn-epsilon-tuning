@@ -1,0 +1,7 @@
+node	states	minimum	maximum	 time
+
+OutflowFrMt	[InsInMt = Strong,WndHodograph = Westerly,OutflowFrMt = None]	0.8328381741961298	1.0	0.03000497817993164
+
+Ignoring here as solution not found for this parameter. (time: 0.0034630298614501953)
+
+Sum of times: 0.033468008041381836s

@@ -1,0 +1,87 @@
+Region: 0.3277794919<=p0<=0.3277794919,0.37950262<=p1<=0.37950262,0.5<=p2<=0.5,0.5<=p3<=0.5
+Epsilon: 0.05
+Refinement threshold: 0.35
+Number of random instantiations: 10000
+Time for model input parsing: 0.054s.
+
+Iteration 1 starts:
+{4: p0, p3, p1, p2}
+bound: 0.025
+Doing PLA on: 0.30277949<=p0<=0.35277949,0.35450262<=p1<=0.40450262,0.475<=p2<=0.525,0.475<=p3<=0.525
+Time for PLA, iteration 1: 0.004s.
+
+{4: p0, p3, p1, p2}
+bound: 0.05
+Doing PLA on: 0.27777949<=p0<=0.37777949,0.32950262<=p1<=0.42950262,0.45<=p2<=0.55,0.45<=p3<=0.55
+Time for PLA, iteration 1: 0.003s.
+
+{4: p0, p3, p1, p2}
+bound: 0.1
+Doing PLA on: 0.22777949<=p0<=0.42777949,0.27950262<=p1<=0.47950262,0.4<=p2<=0.6,0.4<=p3<=0.6
+Time for PLA, iteration 2: 0.003s.
+
+{4: p0, p3, p1, p2}
+bound: 0.2
+Doing PLA on: 0.12777949<=p0<=0.52777949,0.17950262<=p1<=0.57950262,0.3<=p2<=0.7,0.3<=p3<=0.7
+Time for PLA, iteration 3: 0.011s.
+
+{4: p0, p3, p1, p2}
+bound: 0.4
+Doing PLA on: 0<=p0<=0.72777949,0<=p1<=0.77950262,0.1<=p2<=0.9,0.1<=p3<=0.9
+Time for PLA, iteration 4: 0.516s.
+
+There are only this much AllSatregions:43
+this-distance0.36003338
+this-distance0.4889702507
+this-distance0.4874156654
+this-distance0.3841536553
+this-distance0.5263477009
+this-distance0.4764891418
+this-distance0.3841536553
+this-distance0.535762916
+this-distance0.516760972
+this-distance0.4770471999
+this-distance0.430694827
+this-distance0.5630647407
+this-distance0.3572857028
+this-distance0.3272528381
+this-distance0.4231925165
+this-distance0.3281674545
+this-distance0.2993727354
+this-distance0.5248790661
+this-distance0.4786354626
+this-distance0.4764891418
+this-distance0.4421515962
+this-distance0.486869492
+this-distance0.3841536553
+this-distance0.2960626174
+this-distance0.5263477009
+this-distance0.3988632673
+this-distance0.486869492
+this-distance0.36003338
+this-distance0.3272528381
+this-distance0.5248790661
+this-distance0.3841536553
+this-distance0.36003338
+this-distance0.3969559559
+this-distance0.2960626174
+this-distance0.535762916
+this-distance0.5248790661
+this-distance0.3861242106
+this-distance0.3841536553
+this-distance0.4348469915
+this-distance0.486869492
+this-distance0.36003338
+this-distance0.535762916
+this-distance0.3841536553
+The EC-distance between the original and new instantiation: 0.2960626174
+p0= 0.5458346175
+p3= 0.7
+p1= 0.38975131
+p2= 0.5
+Number of iterations: 4
+
+Performance statistics:
+  * peak memory usage: 109MB
+  * CPU time: 2.066s
+  * wallclock time: 0.620s

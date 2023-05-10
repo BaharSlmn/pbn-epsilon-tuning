@@ -1,0 +1,6 @@
+node	states	minimum	maximum	 time
+
+lung	[smoke = yes,lung = yes]	0.2949521474952413	1.0	0.020509004592895508
+
+instantiation: 0.2949521474952413
+tuning time: 0.020509004592895508

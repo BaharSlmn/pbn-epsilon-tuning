@@ -1,0 +1,55 @@
+Region: 0.001<=p0<=0.001
+Epsilon: 0.05
+Refinement threshold: 0.00001
+Number of random instantiations: 10000
+Time for model input parsing: 0.011s.
+
+Iteration 1 starts:
+{1: p0}
+bound: 0.05
+Doing PLA on: 0<=p0<=0.051
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p0<=51/1000; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 1: 0.002s.
+
+{1: p0}
+bound: 0.1
+Doing PLA on: 0<=p0<=0.101
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p0<=101/1000; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 1: 0.001s.
+
+{1: p0}
+bound: 0.2
+Doing PLA on: 0<=p0<=0.201
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p0<=201/1000; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 2: 0.001s.
+
+{1: p0}
+bound: 0.4
+Doing PLA on: 0<=p0<=0.401
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p0<=401/1000; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 3: 0.001s.
+
+{1: p0}
+bound: 0.8
+Doing PLA on: 0<=p0<=0.801
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p0<=801/1000; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p0<=801/2000; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 4: 0.007s.
+
+There are only this much AllSatregions:8
+this-distance0.499625
+this-distance0.4495625
+this-distance0.4495625
+this-distance0.59975
+this-distance0.59975
+this-distance0.435066864
+this-distance0.437046875
+this-distance0.4350913086
+The EC-distance between the original and new instantiation: 0.435066864
+p0= 0.436066864
+Number of iterations: 4
+
+Performance statistics:
+  * peak memory usage: 98MB
+  * CPU time: 1.437s
+  * wallclock time: 0.026s

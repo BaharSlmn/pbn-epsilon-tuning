@@ -1,0 +1,43 @@
+{
+    "network": "win95pts",
+    "classpath": "/Users/bahare/Packages/bayesserver-9.4/Java/bayesserver-9.4.jar",
+    "bif_location": "bif_files/win95pts.bif",
+    "output_directory": "parameter_tuning_results/win95pts-2",
+    "create_parametric_bif": true,
+    "parameter_tuning": {
+        "hypothesis": "GDIINYes",
+        "evidence": "default",
+        "interval_left": 0.0,
+        "interval_right": 0.3,
+        "interval_left_type": "CLOSED",
+        "interval_right_type": "CLOSED",
+        "parameters": [
+            {
+                "node": "EMFOK",
+                "parents": [
+                    "AppData",
+                    "DskLocal",
+                    "PrtThread"
+                ],
+                "parent_values": [
+                    "Correct",
+                    "Greater_than_2_Mb",
+                    "OK"
+                ],
+                "node_value": "Yes"
+            },
+            {
+                "node": "AppData",
+                "parents": [
+                    "AppOK",
+                    "DataFile"
+                ],
+                "parent_values": [
+                    "Correct",
+                    "Correct"
+                ],
+                "node_value": "Correct"
+            }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+node	states	minimum	maximum	 time
+
+Raf	[PKA = AVG,PKC = AVG,Raf = LOW]	0.9755397345978837	1.0	0.023699283599853516
+
+instantiation: 0.9755397345978837 
+tuning time: 0.023699283599853516

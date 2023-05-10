@@ -1,0 +1,7 @@
+node	states	minimum	maximum	 time
+
+density	[encephalopathy = absent,density = present]	0.0	0.07960198270809421	0.025076866149902344
+
+Ignoring here as solution not found for this parameter. (time: 0.005054950714111328)
+
+Sum of times: 0.030131816864013672s

@@ -1,0 +1,992 @@
+Region: 0.1<=p0<=0.1,0.5<=p1<=0.5,0.5<=p2<=0.5,0.5<=p3<=0.5
+Epsilon: 0.0625
+Refinement threshold: 0.03
+Number of random instantiations: 10000
+Time for model input parsing: 2.697s.
+
+Iteration 1 starts:
+{4: p3, p2, p0, p1}
+bound: 0.03125
+Doing PLA on: 0.068<=p0<=0.132,0.468<=p1<=0.532,0.468<=p2<=0.532,0.468<=p3<=0.532
+Time for PLA, iteration 1: 0.007s.
+
+{4: p3, p2, p0, p1}
+bound: 0.0625
+Doing PLA on: 0.037<=p0<=0.163,0.437<=p1<=0.563,0.437<=p2<=0.563,0.437<=p3<=0.563
+Time for PLA, iteration 1: 0.006s.
+
+{4: p3, p2, p0, p1}
+bound: 0.125
+Doing PLA on: 0<=p0<=0.225,0.375<=p1<=0.625,0.375<=p2<=0.625,0.375<=p3<=0.625
+Time for PLA, iteration 2: 0.006s.
+
+{4: p3, p2, p0, p1}
+bound: 0.25
+Doing PLA on: 0<=p0<=0.35,0.25<=p1<=0.75,0.25<=p2<=0.75,0.25<=p3<=0.75
+Time for PLA, iteration 3: 0.053s.
+
+{4: p3, p2, p0, p1}
+bound: 0.5
+Doing PLA on: 0<=p0<=0.6,0<=p1<=1,0<=p2<=1,0<=p3<=1
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1,0<=p2<=1,0<=p0<=3/5,0<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1,0<=p2<=1,0<=p0<=3/5,0<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1,0<=p2<=1,0<=p0<=3/5,0<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1,0<=p2<=1,0<=p0<=3/5,0<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,0<=p0<=3/10,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,0<=p0<=3/10,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=3/10,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=3/10,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=3/10,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=3/10,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,0<=p0<=3/10,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,0<=p0<=3/10,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,3/10<=p0<=3/5,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,3/10<=p0<=3/5,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,3/10<=p0<=3/5,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,3/10<=p0<=3/5,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,3/10<=p0<=3/5,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,3/10<=p0<=3/5,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,3/10<=p0<=3/5,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,3/10<=p0<=3/5,0<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,0<=p0<=3/10,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,0<=p0<=3/10,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=3/10,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=3/10,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=3/10,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,0<=p0<=3/10,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,0<=p0<=3/10,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,0<=p0<=3/10,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,3/10<=p0<=3/5,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/2,0<=p2<=1/2,3/10<=p0<=3/5,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,3/10<=p0<=3/5,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,3/10<=p0<=3/5,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,3/10<=p0<=3/5,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,0<=p2<=1/2,3/10<=p0<=3/5,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,3/10<=p0<=3/5,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/2<=p3<=1,1/2<=p2<=1,3/10<=p0<=3/5,1/2<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/10<=p0<=9/20,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/10<=p0<=9/20,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/10<=p0<=9/20,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/10<=p0<=9/20,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,9/20<=p0<=3/5,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,9/20<=p0<=3/5,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,9/20<=p0<=3/5,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,9/20<=p0<=3/5,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/10<=p0<=9/20,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/10<=p0<=9/20,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/10<=p0<=9/20,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/10<=p0<=9/20,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,9/20<=p0<=3/5,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,9/20<=p0<=3/5,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,9/20<=p0<=3/5,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,9/20<=p0<=3/5,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/10<=p0<=9/20,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/10<=p0<=9/20,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,3/10<=p0<=9/20,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,3/10<=p0<=9/20,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,9/20<=p0<=3/5,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,9/20<=p0<=3/5,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,9/20<=p0<=3/5,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,9/20<=p0<=3/5,0<=p1<=1/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/10<=p0<=9/20,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/10<=p0<=9/20,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,3/10<=p0<=9/20,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,3/10<=p0<=9/20,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,9/20<=p0<=3/5,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,9/20<=p0<=3/5,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,9/20<=p0<=3/5,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,9/20<=p0<=3/5,1/4<=p1<=1/2; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/10<=p0<=9/20,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/10<=p0<=9/20,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/10<=p0<=9/20,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/10<=p0<=9/20,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,9/20<=p0<=3/5,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,9/20<=p0<=3/5,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,9/20<=p0<=3/5,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,9/20<=p0<=3/5,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/10<=p0<=9/20,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,3/10<=p0<=9/20,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/10<=p0<=9/20,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,3/10<=p0<=9/20,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,9/20<=p0<=3/5,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 0<=p3<=1/4,0<=p2<=1/4,9/20<=p0<=3/5,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,9/20<=p0<=3/5,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 1/4<=p3<=1/2,0<=p2<=1/4,9/20<=p0<=3/5,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/10<=p0<=9/20,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/10<=p0<=9/20,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,3/10<=p0<=9/20,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,3/10<=p0<=9/20,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,9/20<=p0<=3/5,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,9/20<=p0<=3/5,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,9/20<=p0<=3/5,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,9/20<=p0<=3/5,1/2<=p1<=3/4; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/10<=p0<=9/20,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,3/10<=p0<=9/20,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,3/10<=p0<=9/20,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,3/10<=p0<=9/20,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,9/20<=p0<=3/5,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,1/2<=p2<=3/4,9/20<=p0<=3/5,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,9/20<=p0<=3/5,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+ WARN (ParameterLifter.cpp:162): Parameter lifting on region 3/4<=p3<=1,3/4<=p2<=1,9/20<=p0<=3/5,3/4<=p1<=1; affects the underlying graph structure (the region is not strictly well defined). The result for this region might be incorrect.
+Time for PLA, iteration 4: 590.051s.
+
+this-distance0.5553451207
+this-distance0.6251874719
+this-distance0.6111752255
+this-distance0.7209274084
+this-distance0.5662979422
+this-distance0.572898674
+this-distance0.4456166724
+this-distance0.5082714272
+this-distance0.6653828785
+this-distance0.6772243443
+this-distance0.5396486849
+this-distance0.5762215286
+this-distance0.6957951274
+this-distance0.5214069758
+this-distance0.5134328401
+this-distance0.6989039969
+this-distance0.5245533815
+this-distance0.4650478806
+this-distance0.5260406353
+this-distance0.5469285688
+this-distance0.7352654176
+this-distance0.5745582542
+this-distance0.7548670206
+this-distance0.5595495538
+this-distance0.6259680004
+this-distance0.4710879197
+this-distance0.6745875476
+this-distance0.6571125284
+this-distance0.6037399714
+this-distance0.5388156138
+this-distance0.6045481913
+this-distance0.558632538
+this-distance0.4889801249
+this-distance0.616021446
+this-distance0.570686949
+this-distance0.4882006183
+this-distance0.738294064
+this-distance0.6432947419
+this-distance0.5217346368
+this-distance0.4807424271
+this-distance0.6176600248
+this-distance0.6005449999
+this-distance0.8111226306
+this-distance0.5088475029
+this-distance0.5843332204
+this-distance0.6527735298
+this-distance0.569187675
+this-distance0.6662189252
+this-distance0.6647220989
+this-distance0.5288179625
+this-distance0.4269486576
+this-distance0.755765599
+this-distance0.5362904268
+this-distance0.7373609509
+this-distance0.6147598617
+this-distance0.7205547993
+this-distance0.6106077275
+this-distance0.5736737422
+this-distance0.5870427077
+this-distance0.5341282325
+this-distance0.6651186454
+this-distance0.6088860218
+this-distance0.4775220872
+this-distance0.4539324702
+this-distance0.6178576267
+this-distance0.5602733708
+this-distance0.4980822598
+this-distance0.6031411915
+this-distance0.7383139047
+this-distance0.6268254592
+this-distance0.56875
+this-distance0.4971697239
+this-distance0.4488048365
+this-distance0.504026754
+this-distance0.588795115
+this-distance0.6158787548
+this-distance0.4936016391
+this-distance0.53125
+this-distance0.7258481031
+this-distance0.5162496217
+this-distance0.6833968466
+this-distance0.7590598626
+this-distance0.6183237168
+this-distance0.5432109397
+this-distance0.7072034493
+this-distance0.7231522791
+this-distance0.500527066
+this-distance0.5871009283
+this-distance0.6945378409
+this-distance0.5961382888
+this-distance0.5863352816
+this-distance0.5548613284
+this-distance0.5679510185
+this-distance0.6103277808
+this-distance0.5149711764
+this-distance0.4350264899
+this-distance0.6520026241
+this-distance0.5466160101
+this-distance0.4416543827
+this-distance0.5829611908
+this-distance0.7125822321
+this-distance0.4452000955
+this-distance0.5143070277
+this-distance0.6008945155
+this-distance0.6146724865
+this-distance0.6392974049
+this-distance0.5895078721
+this-distance0.6813360037
+this-distance0.4667770982
+this-distance0.7231792871
+this-distance0.6371015912
+this-distance0.4734039798
+this-distance0.5805186932
+this-distance0.6659550238
+this-distance0.6103437812
+this-distance0.6531100477
+this-distance0.4748457809
+this-distance0.4439920115
+this-distance0.6046774062
+this-distance0.5742777393
+this-distance0.4837092199
+this-distance0.5867931253
+this-distance0.53183791
+this-distance0.5206291266
+this-distance0.6585080201
+this-distance0.5305510107
+this-distance0.5635926887
+this-distance0.4970223838
+this-distance0.6035377474
+this-distance0.704380823
+this-distance0.7354778952
+this-distance0.4625527842
+this-distance0.6922492213
+this-distance0.5101604374
+this-distance0.584391711
+this-distance0.7401303728
+this-distance0.5322967629
+this-distance0.6833253938
+this-distance0.523994573
+this-distance0.5013555843
+this-distance0.5840991996
+this-distance0.5140031311
+this-distance0.5245533815
+this-distance0.6341132465
+this-distance0.5254741163
+this-distance0.5527011088
+this-distance0.6784129573
+this-distance0.5567501263
+this-distance0.4900474307
+this-distance0.5579328477
+this-distance0.6413867422
+this-distance0.5346947143
+this-distance0.6195149943
+this-distance0.6722382739
+this-distance0.4611466686
+this-distance0.4843649192
+this-distance0.5264025165
+this-distance0.5764333358
+this-distance0.675347133
+this-distance0.6936232992
+this-distance0.549600352
+this-distance0.5926305236
+this-distance0.5556351939
+this-distance0.4778185292
+this-distance0.7017347367
+this-distance0.5395129459
+this-distance0.7244070851
+this-distance0.5702504247
+this-distance0.4681663033
+this-distance0.6517704255
+this-distance0.5982885748
+this-distance0.5172889817
+this-distance0.5413019606
+this-distance0.5450774028
+this-distance0.6815509656
+this-distance0.7163410719
+this-distance0.6060888961
+this-distance0.4774607314
+this-distance0.5913272941
+this-distance0.6765751298
+this-distance0.4623416114
+this-distance0.5296391018
+this-distance0.5983293799
+this-distance0.6222596172
+this-distance0.5631853464
+this-distance0.6572834125
+this-distance0.4841834299
+this-distance0.5652795907
+this-distance0.6743341623
+this-distance0.5127666989
+this-distance0.7522816855
+this-distance0.6992881425
+this-distance0.5972266634
+this-distance0.4666201614
+this-distance0.5572673281
+this-distance0.6851807471
+this-distance0.6159183946
+this-distance0.596326646
+this-distance0.4904458272
+this-distance0.6473654542
+this-distance0.6354132514
+this-distance0.5714222935
+this-distance0.7201074139
+this-distance0.7128220215
+this-distance0.5299524595
+this-distance0.471616237
+this-distance0.6006100414
+this-distance0.6792185883
+this-distance0.4729086361
+this-distance0.5868513707
+this-distance0.5675037858
+this-distance0.4980430453
+this-distance0.5532750503
+this-distance0.7818809952
+this-distance0.733350349
+this-distance0.7119241094
+this-distance0.4351948199
+this-distance0.6622788546
+this-distance0.7156591149
+this-distance0.4445744981
+this-distance0.6316134474
+this-distance0.7391797608
+this-distance0.5496447716
+this-distance0.5036487957
+this-distance0.6116224581
+this-distance0.5862270118
+this-distance0.6752025159
+this-distance0.6027281726
+this-distance0.7073760382
+this-distance0.480386807
+this-distance0.5633673868
+this-distance0.4370421712
+this-distance0.6485862028
+this-distance0.4697489356
+this-distance0.521977909
+this-distance0.6440457452
+this-distance0.6157439606
+this-distance0.6908653428
+this-distance0.5330026237
+this-distance0.517930452
+this-distance0.5726088188
+this-distance0.6645678224
+this-distance0.5185146303
+this-distance0.5176947097
+this-distance0.4281934252
+this-distance0.7708431869
+this-distance0.4242870859
+this-distance0.5866682943
+this-distance0.5576702375
+this-distance0.53125
+this-distance0.6850096943
+this-distance0.5443333796
+this-distance0.6291968467
+this-distance0.4940465881
+this-distance0.6306386272
+this-distance0.6853375081
+this-distance0.6492483635
+this-distance0.6802817087
+this-distance0.6838611084
+this-distance0.7704947173
+this-distance0.5213601502
+this-distance0.5875498649
+this-distance0.6039421278
+this-distance0.5428422739
+this-distance0.5933469026
+this-distance0.5702504247
+this-distance0.6615928341
+this-distance0.7347073716
+this-distance0.5818209561
+this-distance0.6405030372
+this-distance0.5673919225
+this-distance0.4828706478
+this-distance0.7320508435
+this-distance0.5067898356
+this-distance0.5298695299
+this-distance0.7798424821
+this-distance0.7490293198
+this-distance0.4779411411
+this-distance0.5296944137
+this-distance0.6195386388
+this-distance0.5571709371
+this-distance0.5298603147
+this-distance0.5529925689
+this-distance0.499022482
+this-distance0.7419094874
+this-distance0.5418609427
+this-distance0.468916637
+this-distance0.7469011502
+this-distance0.4697801181
+this-distance0.5860937292
+this-distance0.688890639
+this-distance0.5758485587
+this-distance0.4295482729
+this-distance0.6183237168
+this-distance0.5079831444
+this-distance0.5496447716
+this-distance0.6584709442
+this-distance0.7114095274
+this-distance0.5926881953
+this-distance0.5871425109
+this-distance0.6606918131
+this-distance0.6578551797
+this-distance0.5041914164
+this-distance0.5406701571
+this-distance0.5284484956
+this-distance0.4990616194
+this-distance0.6935106569
+this-distance0.4515057274
+this-distance0.6023229771
+this-distance0.5826595811
+this-distance0.5607089541
+this-distance0.5402364934
+this-distance0.557924096
+this-distance0.5879652413
+this-distance0.5482215565
+this-distance0.6079711393
+this-distance0.7653953737
+this-distance0.5339636575
+this-distance0.716538718
+this-distance0.4848787703
+this-distance0.5295561231
+this-distance0.6262955323
+this-distance0.5982885748
+this-distance0.6718677325
+this-distance0.5713282906
+this-distance0.7909028662
+this-distance0.6446141045
+this-distance0.6185290009
+this-distance0.6559597572
+this-distance0.6996371828
+this-distance0.623435542
+this-distance0.528152736
+this-distance0.5602733708
+this-distance0.5278290591
+this-distance0.536972852
+this-distance0.540137063
+this-distance0.6455602581
+this-distance0.6676026958
+this-distance0.5925893261
+this-distance0.6041361343
+this-distance0.6400225826
+this-distance0.5303853257
+this-distance0.5740481252
+this-distance0.7158569493
+this-distance0.4807221131
+this-distance0.4588432296
+this-distance0.6911550568
+this-distance0.5378178566
+this-distance0.5627082948
+this-distance0.7098635432
+this-distance0.5523918163
+this-distance0.6676904574
+this-distance0.6119736259
+this-distance0.5796348527
+this-distance0.7509499193
+this-distance0.4548566052
+this-distance0.7008713884
+this-distance0.4894791556
+this-distance0.6167898244
+this-distance0.5650981663
+this-distance0.6180551654
+this-distance0.426525296
+this-distance0.7163956004
+this-distance0.7760703294
+this-distance0.532526041
+this-distance0.740770028
+this-distance0.7079418342
+this-distance0.6971342007
+this-distance0.7364598067
+this-distance0.6870666248
+this-distance0.6187263253
+this-distance0.5087035452
+this-distance0.5226883632
+this-distance0.5305510107
+this-distance0.6665559804
+this-distance0.4901271359
+this-distance0.6168135734
+this-distance0.569093303
+this-distance0.5002343201
+this-distance0.6235608431
+this-distance0.6643914626
+this-distance0.6025580237
+this-distance0.5122617586
+this-distance0.52570637
+this-distance0.5961792411
+this-distance0.472898311
+this-distance0.4915695526
+this-distance0.5412117481
+this-distance0.6385561105
+this-distance0.5584839271
+this-distance0.5425813591
+this-distance0.4888502934
+this-distance0.4345435824
+this-distance0.6724488828
+this-distance0.7603710032
+this-distance0.5274126112
+this-distance0.6044997286
+this-distance0.8005186307
+this-distance0.6623673216
+this-distance0.5058640504
+this-distance0.4317818279
+this-distance0.5356344807
+this-distance0.5729838976
+this-distance0.5546324797
+this-distance0.6437727545
+this-distance0.6281094525
+this-distance0.4331141774
+this-distance0.5185428803
+this-distance0.4568809849
+this-distance0.6763008299
+this-distance0.7134656286
+this-distance0.616948134
+this-distance0.6831610238
+this-distance0.6502703765
+this-distance0.5170812769
+this-distance0.5049172271
+this-distance0.5559163325
+this-distance0.5175249088
+this-distance0.6307624974
+this-distance0.5731543068
+this-distance0.764610297
+this-distance0.500351439
+this-distance0.6026147453
+this-distance0.4510837644
+this-distance0.564242094
+this-distance0.5492004131
+this-distance0.6428391615
+this-distance0.5945389495
+this-distance0.5525950851
+this-distance0.4674043184
+this-distance0.6098075388
+this-distance0.5687242439
+this-distance0.4726401082
+this-distance0.4849895295
+this-distance0.5905836626
+this-distance0.5096720759
+this-distance0.5835890437
+this-distance0.6725214913
+this-distance0.4857239281
+this-distance0.5292148518
+this-distance0.6610981631
+this-distance0.6147280903
+this-distance0.5939473356
+this-distance0.6409221872
+this-distance0.527616249
+this-distance0.6640974256
+this-distance0.6440381637
+this-distance0.5041914164
+this-distance0.5816111109
+this-distance0.6057665598
+this-distance0.590500979
+this-distance0.5884716035
+this-distance0.6173358208
+this-distance0.6921010809
+this-distance0.5659960799
+this-distance0.5046173519
+this-distance0.6475539915
+this-distance0.7119241094
+this-distance0.6366108996
+this-distance0.5158711534
+this-distance0.7183694645
+this-distance0.7065264945
+this-distance0.5981008355
+this-distance0.6445838047
+this-distance0.5622047836
+this-distance0.6440457452
+this-distance0.6666878252
+this-distance0.5889941108
+this-distance0.5791882115
+this-distance0.5694535484
+this-distance0.6319071456
+this-distance0.4425931223
+this-distance0.6584486977
+this-distance0.6085009758
+this-distance0.486778312
+this-distance0.5611441994
+this-distance0.668603956
+this-distance0.4504121377
+this-distance0.7293712511
+this-distance0.6406707301
+this-distance0.5055840527
+this-distance0.5213601502
+this-distance0.6190813507
+this-distance0.505767517
+this-distance0.4988854766
+this-distance0.6228478571
+this-distance0.6160610765
+this-distance0.7190284787
+this-distance0.698813168
+this-distance0.6127391115
+this-distance0.5800558971
+this-distance0.6942776709
+this-distance0.6392057449
+this-distance0.6941158945
+this-distance0.657365124
+this-distance0.6472598493
+this-distance0.5265787275
+this-distance0.4867983733
+this-distance0.5141930875
+this-distance0.481594844
+this-distance0.4825469537
+this-distance0.5614225793
+this-distance0.6004880827
+this-distance0.7930607243
+this-distance0.7169066035
+this-distance0.5651068068
+this-distance0.6228792143
+this-distance0.5858520771
+this-distance0.5826176786
+this-distance0.6172646313
+this-distance0.7168793592
+this-distance0.6736894105
+this-distance0.5020076879
+this-distance0.4503254032
+this-distance0.5034063654
+this-distance0.7021103791
+this-distance0.6027605764
+this-distance0.6952405159
+this-distance0.7428040203
+this-distance0.5124047168
+this-distance0.4735277348
+this-distance0.5050912665
+this-distance0.7331705549
+this-distance0.6425352617
+this-distance0.5538043145
+this-distance0.7107159682
+this-distance0.6089261167
+this-distance0.5506033622
+this-distance0.4473882542
+this-distance0.5775419357
+this-distance0.4871392896
+this-distance0.5870427077
+this-distance0.5432109397
+this-distance0.6857862162
+this-distance0.7097190795
+this-distance0.7429749113
+this-distance0.7601847534
+this-distance0.5799043563
+this-distance0.5807289331
+this-distance0.7160547291
+this-distance0.5960154151
+this-distance0.6183947844
+this-distance0.6985965283
+this-distance0.6376378527
+this-distance0.5564255341
+this-distance0.6805113541
+this-distance0.6073604521
+this-distance0.6481569423
+this-distance0.7977935882
+this-distance0.5517992587
+this-distance0.5961382888
+this-distance0.5380901557
+this-distance0.4918674555
+this-distance0.7517622526
+this-distance0.5246929906
+this-distance0.6640827203
+this-distance0.5062017724
+this-distance0.5626215147
+this-distance0.6656690126
+this-distance0.5939473356
+this-distance0.4394932273
+this-distance0.4595344111
+this-distance0.4474319082
+this-distance0.5926305236
+this-distance0.6863911512
+this-distance0.5700106222
+this-distance0.5054971254
+this-distance0.7457169369
+this-distance0.5503549991
+this-distance0.625164041
+this-distance0.667865946
+this-distance0.4444316947
+this-distance0.5340002341
+this-distance0.5792556511
+this-distance0.711581096
+this-distance0.6204915516
+this-distance0.4780330794
+this-distance0.6031654779
+this-distance0.5593575416
+this-distance0.4496092053
+this-distance0.5199722048
+this-distance0.5302748403
+this-distance0.5172795424
+this-distance0.5749830161
+this-distance0.787096871
+this-distance0.6151886144
+this-distance0.6663728194
+this-distance0.7545176439
+this-distance0.5625
+this-distance0.4836183606
+this-distance0.5004977991
+this-distance0.5566097853
+this-distance0.7037080916
+this-distance0.5106292074
+this-distance0.7876301976
+this-distance0.6534613368
+this-distance0.5222117177
+this-distance0.7074243555
+this-distance0.7195240397
+this-distance0.6973723001
+this-distance0.5797359313
+this-distance0.4679054893
+this-distance0.6356514252
+this-distance0.4955859852
+this-distance0.7360618924
+this-distance0.6405792667
+this-distance0.6702378309
+this-distance0.7061808594
+this-distance0.5570569989
+this-distance0.721692347
+this-distance0.4627849629
+this-distance0.4468968526
+this-distance0.572642927
+this-distance0.4984742345
+this-distance0.5409410204
+this-distance0.4266054237
+this-distance0.5091544768
+this-distance0.5175249088
+this-distance0.5610745828
+this-distance0.5182320456
+this-distance0.6022905497
+this-distance0.5600990426
+this-distance0.5583702569
+this-distance0.5457219988
+this-distance0.4891797982
+this-distance0.6253436555
+this-distance0.7337098051
+this-distance0.5092503682
+this-distance0.5842162217
+this-distance0.5860937292
+this-distance0.5433727139
+this-distance0.5970631248
+this-distance0.6348751108
+this-distance0.5435164728
+this-distance0.7132192094
+this-distance0.4808947552
+this-distance0.6663215252
+this-distance0.4576178127
+this-distance0.500039061
+this-distance0.6210814661
+this-distance0.5646659687
+this-distance0.4851304593
+this-distance0.5265509086
+this-distance0.536972852
+this-distance0.6509908313
+this-distance0.7837709327
+this-distance0.6878479233
+this-distance0.62970107
+this-distance0.573452401
+this-distance0.6830395075
+this-distance0.5602908006
+this-distance0.4458576707
+this-distance0.6409221872
+this-distance0.5197655722
+this-distance0.5109733359
+this-distance0.5132901683
+this-distance0.6903633554
+this-distance0.5202538443
+this-distance0.5867931253
+this-distance0.6742617491
+this-distance0.6498272006
+this-distance0.4460000175
+this-distance0.6438106768
+this-distance0.5339636575
+this-distance0.4713469728
+this-distance0.4838303389
+this-distance0.5392685295
+this-distance0.6269033518
+this-distance0.5749150753
+this-distance0.4514408357
+this-distance0.5575826732
+this-distance0.6485786744
+this-distance0.7000906749
+this-distance0.5028628976
+this-distance0.4934730236
+this-distance0.4593431111
+this-distance0.5734609157
+this-distance0.6119816046
+this-distance0.7245284027
+this-distance0.5246929906
+this-distance0.4948563554
+this-distance0.6922492213
+this-distance0.5333963993
+this-distance0.6429075191
+this-distance0.6565029274
+this-distance0.4276913863
+this-distance0.5931411352
+this-distance0.5550724896
+this-distance0.6191996472
+this-distance0.6420791423
+this-distance0.4426703415
+this-distance0.6744065678
+this-distance0.6872584803
+this-distance0.500351439
+this-distance0.4489136192
+this-distance0.5442705841
+this-distance0.6183237168
+this-distance0.498288085
+this-distance0.5136705383
+this-distance0.5380175561
+this-distance0.5345394484
+this-distance0.4527369028
+this-distance0.6335817084
+this-distance0.4601715034
+this-distance0.5212758537
+this-distance0.4727847191
+this-distance0.4635756074
+this-distance0.636733608
+this-distance0.7619554921
+this-distance0.473414294
+this-distance0.600423028
+this-distance0.4711501055
+this-distance0.6326562307
+this-distance0.5725150107
+this-distance0.7143274262
+this-distance0.5744477647
+this-distance0.5505590199
+this-distance0.5920947322
+this-distance0.5711145901
+this-distance0.5033481648
+this-distance0.5504703245
+this-distance0.8298272599
+this-distance0.6710823813
+this-distance0.6976943054
+this-distance0.5419510471
+this-distance0.564588138
+this-distance0.7520869402
+this-distance0.4760268506
+this-distance0.5237149451
+this-distance0.5215474271
+this-distance0.4332832503
+this-distance0.4971697239
+this-distance0.6982539608
+this-distance0.5317920029
+this-distance0.5115845482
+this-distance0.5112408312
+this-distance0.6610686188
+this-distance0.443045215
+this-distance0.6053230672
+this-distance0.5121473634
+this-distance0.6543872372
+this-distance0.4442998354
+this-distance0.5941117319
+this-distance0.4893793901
+this-distance0.5111071011
+this-distance0.6012763118
+this-distance0.5118231048
+this-distance0.6763946818
+this-distance0.5150659849
+this-distance0.7184102458
+this-distance0.5768482524
+this-distance0.5253718921
+this-distance0.5914924186
+this-distance0.6334506813
+this-distance0.4979548015
+this-distance0.4158246701
+this-distance0.7288086919
+this-distance0.4588645123
+this-distance0.6251093654
+this-distance0.7820308598
+this-distance0.6271447575
+this-distance0.5089626398
+this-distance0.5727026115
+this-distance0.4310348195
+this-distance0.5758315997
+this-distance0.5347860261
+this-distance0.6898114552
+this-distance0.6753254424
+this-distance0.5684236701
+this-distance0.6258899913
+this-distance0.6780313875
+this-distance0.5492448651
+this-distance0.538362317
+this-distance0.557319898
+this-distance0.4208436467
+this-distance0.5091352964
+this-distance0.7005159929
+this-distance0.5630726252
+this-distance0.4936214231
+this-distance0.5288179625
+this-distance0.5596629845
+this-distance0.4861961731
+this-distance0.7548670206
+this-distance0.4579911128
+this-distance0.6872229555
+this-distance0.6881105244
+this-distance0.4944417622
+this-distance0.5079831444
+this-distance0.5409410204
+this-distance0.6200979635
+this-distance0.712102411
+this-distance0.6417672743
+this-distance0.6061694534
+this-distance0.7231590312
+this-distance0.6838611084
+this-distance0.46875
+this-distance0.5745752507
+this-distance0.6604330965
+this-distance0.8254615186
+this-distance0.6191838757
+this-distance0.6510133327
+this-distance0.5832626445
+this-distance0.6743341623
+this-distance0.5506920362
+this-distance0.501404278
+this-distance0.6470033085
+this-distance0.7374536532
+this-distance0.4260327526
+this-distance0.6631998073
+this-distance0.654014048
+this-distance0.5346033869
+this-distance0.6711478623
+this-distance0.5076177511
+this-distance0.5271996331
+this-distance0.6427176188
+this-distance0.4117298682
+this-distance0.4871994266
+this-distance0.6765173917
+this-distance0.4593431111
+this-distance0.7332105129
+this-distance0.6721728991
+this-distance0.6321775364
+this-distance0.5059605654
+this-distance0.584391711
+this-distance0.6735009396
+this-distance0.5937006558
+this-distance0.807677999
+this-distance0.4607229373
+this-distance0.6183553034
+this-distance0.4924627207
+this-distance0.557871583
+this-distance0.6779089518
+this-distance0.5892427609
+this-distance0.6199877141
+this-distance0.6863342389
+this-distance0.5019493251
+this-distance0.5469732055
+this-distance0.5288179625
+this-distance0.5268753707
+this-distance0.6594046202
+this-distance0.6836825835
+this-distance0.4619295468
+this-distance0.6606326868
+this-distance0.6198144254
+this-distance0.7074450619
+this-distance0.6790388428
+this-distance0.7081831949
+this-distance0.646505027
+this-distance0.5184957961
+this-distance0.499081187
+this-distance0.4695306
+this-distance0.6195149943
+this-distance0.5260870442
+this-distance0.608966209
+this-distance0.6249921875
+this-distance0.5501775282
+this-distance0.6900450053
+this-distance0.6184895285
+this-distance0.4487939568
+this-distance0.668676982

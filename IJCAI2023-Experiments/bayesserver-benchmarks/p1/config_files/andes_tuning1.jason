@@ -1,0 +1,23 @@
+{
+    "network" : "andes",
+    "classpath" : "/Users/bahare/Packages/bayesserver-9.4/Java/bayesserver-10.8.jar",
+    "bif_location" : "bif_files/andes.bif",
+    "output_directory" : "parameter_tuning_results/andes2",
+    "create_parametric_bif" : true,
+    "parameter_tuning" : {
+      "hypothesis" : "SNode_51false",
+      "evidence" : "default",
+      "interval_left" : 0.0,
+      "interval_right" : 0.5,
+      "interval_left_type" : "CLOSED",
+      "interval_right_type" : "CLOSED",
+      "parameters" : [
+        {
+          "node" : "SNode_51",
+          "parents" : ["SNode_17", "GOAL_50", "SYSTEM18"],
+          "parent_values" : ["true","false","false"],
+          "node_value" : "false"
+        }
+      ]
+    }
+}

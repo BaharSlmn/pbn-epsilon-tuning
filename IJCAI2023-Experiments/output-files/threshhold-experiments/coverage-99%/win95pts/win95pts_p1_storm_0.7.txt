@@ -1,0 +1,56 @@
+Region: 0.99<=p0<=0.99
+Epsilon: 0.0625
+Refinement threshold: 0.01
+Number of random instantiations: 10000
+Time for model input parsing: 2.964s.
+
+Iteration 1 starts:
+{0: }
+bound: inf
+Doing PLA on: 0<=p0<=1
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p0 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 1: 0.006s.
+
+{0: }
+bound: inf
+Doing PLA on: 0<=p0<=1
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p0 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 1: 0.004s.
+
+{0: }
+bound: inf
+Doing PLA on: 0<=p0<=1
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p0 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 2: 0.005s.
+
+{0: }
+bound: inf
+Doing PLA on: 0<=p0<=1
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p0 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 3: 0.005s.
+
+{0: }
+bound: inf
+Doing PLA on: 0<=p0<=1
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p0 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 4: 0.004s.
+
+{0: }
+bound: inf
+Doing PLA on: 0<=p0<=1
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p0 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 5: 0.005s.
+
+{0: }
+bound: inf
+Doing PLA on: 0<=p0<=1
+ WARN (ParameterRegionParser.cpp:40): Could not find parameter p0 in the set of considered variables. Ignoring this parameter.
+Time for PLA, iteration 6: 0.004s.
+
+Number of iterations: 6
+No feasible solution found for epsilon = 0.0625 and after 6. Please give different arguments and try again.
+
+Performance statistics:
+  * peak memory usage: 108MB
+  * CPU time: 4.400s
+  * wallclock time: 3.001s

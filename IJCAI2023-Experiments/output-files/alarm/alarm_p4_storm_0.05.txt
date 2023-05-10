@@ -1,0 +1,35 @@
+Region: 0.01<=p0<=0.01,0.01<=p1<=0.01,0.6<=p2<=0.6,0.01<=p3<=0.01
+Epsilon: 0.0625
+Refinement threshold: 0.05
+Number of random instantiations: 10000
+Time for model input parsing: 0.378s.
+
+Iteration 1 starts:
+{4: p0, p3, p1, p2}
+bound: 0.03125
+Doing PLA on: 0<=p0<=0.042,0<=p1<=0.042,0.568<=p2<=0.632,0<=p3<=0.042
+Time for PLA, iteration 1: 0.013s.
+
+{4: p0, p3, p1, p2}
+bound: 0.0625
+Doing PLA on: 0<=p0<=0.073,0<=p1<=0.073,0.537<=p2<=0.663,0<=p3<=0.073
+Time for PLA, iteration 1: 0.011s.
+
+{4: p0, p3, p1, p2}
+bound: 0.125
+Doing PLA on: 0<=p0<=0.135,0<=p1<=0.135,0.475<=p2<=0.725,0<=p3<=0.135
+Time for PLA, iteration 2: 0.011s.
+
+{4: p0, p3, p1, p2}
+bound: 0.25
+Doing PLA on: 0<=p0<=0.26,0<=p1<=0.26,0.35<=p2<=0.85,0<=p3<=0.26
+Time for PLA, iteration 3: 0.011s.
+
+{4: p0, p3, p1, p2}
+bound: 0.5
+Doing PLA on: 0<=p0<=0.51,0<=p1<=0.51,0.1<=p2<=1,0<=p3<=0.51
+Time for PLA, iteration 4: 0.034s.
+
+{4: p0, p3, p1, p2}
+bound: 1
+Doing PLA on: 0<=p0<=1,0<=p1<=1,0<=p2<=1,0<=p3<=1

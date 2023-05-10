@@ -1,0 +1,5 @@
+node	states	minimum	maximum	 time
+
+Alarm	[Burglary = False,Earthquake = False,Alarm = True]	0.2682110068445412	1.0	0.0037119388580322266
+
+Sum of times: 0.0037119388580322266s

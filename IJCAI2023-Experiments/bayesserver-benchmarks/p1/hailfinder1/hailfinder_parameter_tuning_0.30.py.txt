@@ -1,0 +1,7 @@
+node	states	minimum	maximum	 time
+
+Ignoring here as constraint is already satisfied. (time: 0.026898860931396484)
+
+Ignoring here as constraint is already satisfied. (time: 0.0034830570220947266)
+
+Sum of times: 0.03038191795349121s

@@ -1,0 +1,45 @@
+Region: 0.48
+<=p0<=0.48
+
+Epsilon: 0.05
+Refinement threshold: 0.05
+Number of random instantiations: 10000
+Time for model input parsing: 12.886s.
+
+Iteration 1 starts:
+{1: p0}
+bound: 0.05
+Doing PLA on: 0.43<=p0<=0.53
+Time for PLA, iteration 1: 0.002s.
+
+{1: p0}
+bound: 0.1
+Doing PLA on: 0.38<=p0<=0.58
+Time for PLA, iteration 1: 0.001s.
+
+{1: p0}
+bound: 0.2
+Doing PLA on: 0.28<=p0<=0.68
+Time for PLA, iteration 2: 0.001s.
+
+{1: p0}
+bound: 0.4
+Doing PLA on: 0.08<=p0<=0.88
+Time for PLA, iteration 3: 0.003s.
+
+{1: p0}
+bound: 0.8
+Doing PLA on: 0<=p0<=1
+Time for PLA, iteration 4: 0.004s.
+
+There are only this much AllSatregions:2
+this-distance0.38625
+this-distance0.4175
+The EC-distance between the original and new instantiation: 0.38625
+p0= 0.09375
+Number of iterations: 4
+
+Performance statistics:
+  * peak memory usage: 135MB
+  * CPU time: 14.146s
+  * wallclock time: 12.900s
