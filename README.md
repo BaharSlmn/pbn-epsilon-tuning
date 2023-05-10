@@ -1,2 +1,2 @@
 # pbn-epsilon-tuning
-IJCAI - 2023
+IJCAI-2023
